@@ -1,0 +1,217 @@
+@keyframes blink {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+.section_design {
+    padding-top: 118px;
+
+    &-wrapper {
+        padding: 0px 50px;
+
+        &--system {
+            &-title {
+                padding: 10px 0px;
+                margin-bottom: 59px;
+            }
+
+            &-line {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            &-content {
+                width: 90%;
+
+                &_list {
+                    &-item {
+                        display: flex;
+                        gap: 117px;
+                        min-height: 390px;
+
+                        .title {
+                            font-size: 20px;
+                            font-feature-settings: 'liga' off, 'clig' off;
+                            line-height: 110%;
+                        }
+
+                        .desc {
+                            font-size: 20px;
+                        }
+
+                        .item-svg {
+                            margin-right: 50px;
+
+                            svg path {
+                                opacity: 0;
+                                animation: blink 8s infinite both;
+                            }
+
+                            svg path:nth-child(1) {
+                                animation-delay: 0s;
+                            }
+
+                            svg path:nth-child(2) {
+                                animation-delay: 0.5s;
+                            }
+
+                            svg path:nth-child(3) {
+                                animation-delay: 1s;
+                            }
+
+                            svg path:nth-child(4) {
+                                animation-delay: 1.5s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &--typography {
+            display: flex;
+            flex-direction: column;
+            gap: 58px;
+
+            &_list {
+                padding: 0px 50px;
+
+                &-item {
+                    display: flex;
+                    gap: 66px;
+
+                    .title,
+                    .desc {
+                        font-size: 20px;
+                    }
+
+                    .desc {
+                        line-height: 130%;
+                    }
+                }
+            }
+
+            &_cards {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+
+                .card {
+                    background: #252525;
+                    border-radius: 24px;
+                    display: flex;
+                    justify-content: center;
+
+                    &.top {
+                        flex-direction: column;
+                        padding: 20px;
+                    }
+
+                    &.bottom {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .bottom-left,
+                        .bottom-right {
+                            padding: 30px;
+                            flex: 1;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                        }
+                    }
+
+                    .title-left,
+                    .title-right {
+                        font-size: 340px;
+                        line-height: 90%;
+                    }
+
+                    .subtitle-left,
+                    .subtitle-right {
+                        color: #BBB;
+                        font-size: 64px;
+                        line-height: 90%;
+                        font-weight: 400;
+                    }
+
+                    .title-left {
+                        color: #FFCE34;
+                    }
+
+                    .title-right {
+                        color: #0DB14B;
+                    }
+
+                    .title,
+                    .subtitle,
+                    .subtitle-main,
+                    .desc {
+                        font-size: 20px;
+                        line-height: 110%;
+                    }
+
+                    .subtitle-main {
+                        font-feature-settings: 'liga' off, 'clig' off;
+                        font-family: "Cormorant Garamond";
+                        font-size: 44px;
+                    }
+
+                    .desc {
+                        font-feature-settings: 'liga' off, 'clig' off;
+                        font-family: Gilroy;
+                        font-size: 14px;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+
+        &--details {
+            padding-top: 105px;
+            &_list {
+                display: flex;
+                flex-direction: column;
+                gap: 115px;
+                &-item {
+                    display: flex;
+    
+                    &:nth-child(1) {
+                        gap: 130px;
+                    }
+    
+                    &:nth-child(2) {
+                        gap: 111px;
+                    }
+    
+                    &:nth-child(3) {
+                        gap: 83px;
+                    }
+
+                    .details{
+                        display: flex;
+                        flex-direction: column;
+
+                        &-desc{
+                            height: 165px;
+                        }
+
+                        &-buttons{
+                            display: flex;
+                            gap: 31px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

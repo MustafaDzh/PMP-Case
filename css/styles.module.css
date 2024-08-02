@@ -191,10 +191,6 @@
 .section_lorem-wrapper--title_text {
   width: 416px;
 }
-.section_lorem-wrapper--title_text .title {
-  font-size: 48px;
-  line-height: 110%;
-}
 .section_lorem-wrapper--line {
   margin-top: 39px;
   margin-bottom: 39px;
@@ -222,7 +218,6 @@
 
 .section_challenges {
   padding-top: 127px;
-  padding-bottom: 100px;
 }
 .section_challenges-wrapper {
   display: flex;
@@ -267,6 +262,7 @@
   align-items: center;
   gap: 30px;
   padding: 48px 34px;
+  height: 216px;
   border-radius: 24px;
   background: #252525;
 }
@@ -285,6 +281,177 @@
 }
 .section_challenges-wrapper-cards_card:nth-of-type(1) .subtitle {
   text-align: start;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+.section_design {
+  padding-top: 118px;
+}
+.section_design-wrapper {
+  padding: 0px 50px;
+}
+.section_design-wrapper--system-title {
+  padding: 10px 0px;
+  margin-bottom: 59px;
+}
+.section_design-wrapper--system-line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.section_design-wrapper--system-content {
+  width: 90%;
+}
+.section_design-wrapper--system-content_list-item {
+  display: flex;
+  gap: 117px;
+  min-height: 390px;
+}
+.section_design-wrapper--system-content_list-item .title {
+  font-size: 20px;
+  font-feature-settings: "liga" off, "clig" off;
+  line-height: 110%;
+}
+.section_design-wrapper--system-content_list-item .desc {
+  font-size: 20px;
+}
+.section_design-wrapper--system-content_list-item .item-svg {
+  margin-right: 50px;
+}
+.section_design-wrapper--system-content_list-item .item-svg svg path {
+  opacity: 0;
+  animation: blink 8s infinite both;
+}
+.section_design-wrapper--system-content_list-item .item-svg svg path:nth-child(1) {
+  animation-delay: 0s;
+}
+.section_design-wrapper--system-content_list-item .item-svg svg path:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.section_design-wrapper--system-content_list-item .item-svg svg path:nth-child(3) {
+  animation-delay: 1s;
+}
+.section_design-wrapper--system-content_list-item .item-svg svg path:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.section_design-wrapper--typography {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+.section_design-wrapper--typography_list {
+  padding: 0px 50px;
+}
+.section_design-wrapper--typography_list-item {
+  display: flex;
+  gap: 66px;
+}
+.section_design-wrapper--typography_list-item .title,
+.section_design-wrapper--typography_list-item .desc {
+  font-size: 20px;
+}
+.section_design-wrapper--typography_list-item .desc {
+  line-height: 130%;
+}
+.section_design-wrapper--typography_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.section_design-wrapper--typography_cards .card {
+  background: #252525;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+}
+.section_design-wrapper--typography_cards .card.top {
+  flex-direction: column;
+  padding: 20px;
+}
+.section_design-wrapper--typography_cards .card.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.section_design-wrapper--typography_cards .card.bottom .bottom-left,
+.section_design-wrapper--typography_cards .card.bottom .bottom-right {
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section_design-wrapper--typography_cards .card .title-left,
+.section_design-wrapper--typography_cards .card .title-right {
+  font-size: 340px;
+  line-height: 90%;
+}
+.section_design-wrapper--typography_cards .card .subtitle-left,
+.section_design-wrapper--typography_cards .card .subtitle-right {
+  color: #BBB;
+  font-size: 64px;
+  line-height: 90%;
+  font-weight: 400;
+}
+.section_design-wrapper--typography_cards .card .title-left {
+  color: #FFCE34;
+}
+.section_design-wrapper--typography_cards .card .title-right {
+  color: #0DB14B;
+}
+.section_design-wrapper--typography_cards .card .title,
+.section_design-wrapper--typography_cards .card .subtitle,
+.section_design-wrapper--typography_cards .card .subtitle-main,
+.section_design-wrapper--typography_cards .card .desc {
+  font-size: 20px;
+  line-height: 110%;
+}
+.section_design-wrapper--typography_cards .card .subtitle-main {
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Cormorant Garamond";
+  font-size: 44px;
+}
+.section_design-wrapper--typography_cards .card .desc {
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Gilroy;
+  font-size: 14px;
+  width: 80%;
+}
+.section_design-wrapper--details {
+  padding-top: 105px;
+}
+.section_design-wrapper--details_list {
+  display: flex;
+  flex-direction: column;
+  gap: 115px;
+}
+.section_design-wrapper--details_list-item {
+  display: flex;
+}
+.section_design-wrapper--details_list-item:nth-child(1) {
+  gap: 130px;
+}
+.section_design-wrapper--details_list-item:nth-child(2) {
+  gap: 111px;
+}
+.section_design-wrapper--details_list-item:nth-child(3) {
+  gap: 83px;
+}
+.section_design-wrapper--details_list-item .details {
+  display: flex;
+  flex-direction: column;
+}
+.section_design-wrapper--details_list-item .details-desc {
+  height: 165px;
+}
+.section_design-wrapper--details_list-item .details-buttons {
+  display: flex;
+  gap: 31px;
 }
 
 * {
@@ -401,6 +568,11 @@ html body ul {
 .page {
   display: flex;
   flex-direction: column;
+}
+
+.section-title .title {
+  font-size: 48px;
+  line-height: 110%;
 }
 
 /*# sourceMappingURL=styles.module.css.map */
