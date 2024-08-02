@@ -1,0 +1,56 @@
+.section_lorem {
+    padding-top: 90px;
+    padding-bottom: 127px;
+
+    &-wrapper {
+        padding: 0px 50px;
+
+        &--title {
+            padding: 10px 0px;
+            margin-bottom: 59px;
+
+            &_text {
+                width: 416px;
+
+                .title {
+                    font-size: 48px;
+                    line-height: 110%;
+                }
+            }
+        }
+
+        &--line {
+            margin-top: 39px;
+            margin-bottom: 39px;
+        }
+
+        &--content {
+            &_list {
+                &-item {
+                    display: flex;
+                }
+            }
+
+            .text-card {
+                display: flex;
+                align-items: flex-start;
+                gap: 84px;
+                font-size: 20px;
+                padding-bottom: 50px;
+
+                &--desc {
+                    font-feature-settings: 'liga' off, 'clig' off;
+                    line-height: 130%;
+
+                    span {
+                        color: #FFCE34;
+                    }
+                }
+            }
+
+            .section_lorem-wrapper--content_list-item:first-child .text-card {
+                gap: 125px;
+            }
+        }
+    }
+}

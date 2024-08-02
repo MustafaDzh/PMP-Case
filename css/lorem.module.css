@@ -1,0 +1,44 @@
+.section_lorem {
+  padding-top: 90px;
+  padding-bottom: 127px;
+}
+.section_lorem-wrapper {
+  padding: 0px 50px;
+}
+.section_lorem-wrapper--title {
+  padding: 10px 0px;
+  margin-bottom: 59px;
+}
+.section_lorem-wrapper--title_text {
+  width: 416px;
+}
+.section_lorem-wrapper--title_text .title {
+  font-size: 48px;
+  line-height: 110%;
+}
+.section_lorem-wrapper--line {
+  margin-top: 39px;
+  margin-bottom: 39px;
+}
+.section_lorem-wrapper--content_list-item {
+  display: flex;
+}
+.section_lorem-wrapper--content .text-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 84px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.section_lorem-wrapper--content .text-card--desc {
+  font-feature-settings: "liga" off, "clig" off;
+  line-height: 130%;
+}
+.section_lorem-wrapper--content .text-card--desc span {
+  color: #FFCE34;
+}
+.section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card {
+  gap: 125px;
+}
+
+/*# sourceMappingURL=lorem.module.css.map */

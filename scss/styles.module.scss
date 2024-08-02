@@ -1,0 +1,119 @@
+@import "./header.module.scss";
+@import "./hero.module.scss";
+@import "./lorem.module.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  cursor: default;
+  background-color: #050505;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.rocGrotesk-300 {
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.rocGrotesk-400 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.rocGrotesk-500 {
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Roc Grotesk" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rocGrotesk-700 {
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Roc Grotesk" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.rocGrotesk-800 {
+  color: #28282a;
+  text-align: center;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.unbounded-300 {
+  font-family: Unbounded, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.unbounded-400 {
+  font-family: Unbounded, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unbounded-500 {
+  font-family: Unbounded, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.unbounded-600 {
+  font-family: Unbounded, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.unbounded-700 {
+  font-family: Unbounded, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html body .container {
+  width: 95%;
+  max-width: 1440px;
+  display: block;
+  margin: 0 auto;
+}
+
+html body a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+html body ul {
+  list-style: none;
+}
+
+.section {
+  width: 98%;
+  max-width: calc(1440px - 2%);
+  height: auto;
+  margin: 0 auto;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}

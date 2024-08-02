@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    min-height: 0;
+    z-index: 19;
+    background-color: #0505059c;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    transition: 0.2s linear ease-in;
+  
+    .container {
+      max-width: calc(1440px - 2%);
+    }
+  
+    &-wrapper {
+      height: 88px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      &_logo {
+        height: 40px;
+        width: auto;
+      }
+  
+      &_nav {
+        display: flex;
+        gap: 40px;
+  
+        &-list {
+          display: flex;
+          gap: 30px;
+          align-items: center;
+  
+          &--item {
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+  
+      &_btn--button {
+        width: 160px;
+        text-align: center;
+        height: auto;
+        padding: 10px 24px;
+        background: #ffce34;
+        border-radius: 38px;
+        transition: 0.2s linear;
+  
+        p {
+          font-size: 14px;
+          color: #000;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
