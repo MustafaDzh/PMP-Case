@@ -178,36 +178,72 @@
 
         &--details {
             padding-top: 105px;
+
             &_list {
                 display: flex;
                 flex-direction: column;
                 gap: 115px;
+
                 &-item {
                     display: flex;
-    
+
                     &:nth-child(1) {
                         gap: 130px;
                     }
-    
+
                     &:nth-child(2) {
                         gap: 111px;
                     }
-    
+
                     &:nth-child(3) {
                         gap: 83px;
                     }
 
-                    .details{
+                    .details {
                         display: flex;
                         flex-direction: column;
 
-                        &-desc{
+                        &-desc {
                             height: 165px;
+                            font-size: 20px;
                         }
 
-                        &-buttons{
+                        &-buttons {
                             display: flex;
                             gap: 31px;
+                            justify-content: space-between;
+
+                            &--button {
+                                display: flex;
+                                padding: 9px 20px;
+                                width: 100%;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px;
+                                border-radius: 6px;
+
+                                a {
+                                    font-size: 16px;
+                                    line-height: 110%;
+                                }
+                            }
+
+                            &_white {
+                                background: #F8F8F8;
+
+                                a {
+                                    color: #050505;
+
+                                }
+                            }
+
+                            &_red {
+                                background: #CD1543;
+                            }
+
+                            &_blue {
+                                background: #162041;
+                            }
                         }
                     }
                 }
