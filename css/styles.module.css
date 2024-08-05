@@ -80,6 +80,9 @@
   font-size: 72px;
   text-transform: uppercase;
 }
+.homepage .section_hero-wrapper--content .subtitle {
+  font-size: 20px;
+}
 .homepage .section_hero-wrapper--image {
   width: 100%;
   height: 100%;
@@ -168,10 +171,11 @@
 .homepage .section_hero-wrapper--client-statics_left {
   max-width: 192px;
   width: 100%;
+  display: flex;
+  align-items: flex-end;
 }
 .homepage .section_hero-wrapper--client-statics_left .subtitle {
-  width: 60%;
-  text-align: right;
+  width: 80%;
 }
 .homepage .section_hero-wrapper--client-statics_right {
   max-width: 138px;
@@ -238,6 +242,7 @@
 }
 .section_challenges-wrapper-images_content:nth-of-type(2) {
   background: radial-gradient(circle, rgba(205, 21, 67, 0.6) 0%, rgba(205, 21, 67, 0.5) 30%, rgba(37, 37, 37, 0.8) 70%, rgba(37, 37, 37, 0.8) 100%);
+  position: relative;
 }
 .section_challenges-wrapper-images_content-text {
   position: absolute;
@@ -263,6 +268,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 30px;
   padding: 48px 34px;
   height: 216px;
@@ -308,9 +314,6 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.section_design-wrapper--system-content {
-  width: 90%;
-}
 .section_design-wrapper--system-content_list-item {
   display: flex;
   gap: 117px;
@@ -347,9 +350,6 @@
   display: flex;
   flex-direction: column;
   gap: 58px;
-}
-.section_design-wrapper--typography_list {
-  padding: 0px 50px;
 }
 .section_design-wrapper--typography_list-item {
   display: flex;
@@ -401,8 +401,13 @@
   line-height: 90%;
   font-weight: 400;
 }
+.section_design-wrapper--typography_cards .card .title-left,
+.section_design-wrapper--typography_cards .card .subtitle-left {
+  font-family: "Cormorant Garamond";
+}
 .section_design-wrapper--typography_cards .card .title-left {
   color: #FFCE34;
+  font-family: "Cormorant Garamond";
 }
 .section_design-wrapper--typography_cards .card .title-right {
   color: #0DB14B;
@@ -546,6 +551,48 @@
   background: #CD1543;
 }
 
+.section_sitemap {
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  padding-top: 113px;
+}
+.section_sitemap-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.section_sitemap-wrapper--map {
+  width: auto;
+  height: auto;
+}
+.section_sitemap-wrapper--map img {
+  border-radius: 24px;
+  background: #252525;
+}
+.section_sitemap-wrapper--site {
+  display: flex;
+  padding: 40px 33px;
+  flex-direction: column;
+  gap: 28px;
+  border-radius: 24px;
+  background: #252525;
+}
+.section_sitemap-wrapper--site_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.section_sitemap-wrapper--site_text-info {
+  font-variant-numeric: ordinal;
+  font-size: 14px;
+  flex: 1;
+}
+.section_sitemap-wrapper--site_text-info:last-child {
+  text-align: right;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -599,35 +646,35 @@ html body {
 }
 
 .unbounded-300 {
-  font-family: Unbounded, sans-serif;
+  font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
 
 .unbounded-400 {
-  font-family: Unbounded, sans-serif;
+  font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 .unbounded-500 {
-  font-family: Unbounded, sans-serif;
+  font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
 
 .unbounded-600 {
-  font-family: Unbounded, sans-serif;
+  font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
 }
 
 .unbounded-700 {
-  font-family: Unbounded, sans-serif;
+  font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;

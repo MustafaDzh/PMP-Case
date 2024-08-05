@@ -20,9 +20,6 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.section_design-wrapper--system-content {
-  width: 90%;
-}
 .section_design-wrapper--system-content_list-item {
   display: flex;
   gap: 117px;
@@ -59,9 +56,6 @@
   display: flex;
   flex-direction: column;
   gap: 58px;
-}
-.section_design-wrapper--typography_list {
-  padding: 0px 50px;
 }
 .section_design-wrapper--typography_list-item {
   display: flex;
@@ -113,8 +107,13 @@
   line-height: 90%;
   font-weight: 400;
 }
+.section_design-wrapper--typography_cards .card .title-left,
+.section_design-wrapper--typography_cards .card .subtitle-left {
+  font-family: "Cormorant Garamond";
+}
 .section_design-wrapper--typography_cards .card .title-left {
   color: #FFCE34;
+  font-family: "Cormorant Garamond";
 }
 .section_design-wrapper--typography_cards .card .title-right {
   color: #0DB14B;

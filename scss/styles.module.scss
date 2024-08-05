@@ -3,6 +3,7 @@
 @import "./lorem.module.scss";
 @import "./challenges.module.scss";
 @import "./design.module.scss";
+@import "./sitemap.module.scss";
 
 * {
     padding: 0;
@@ -57,35 +58,35 @@ html body {
 }
 
 .unbounded-300 {
-    font-family: Unbounded, sans-serif;
+    font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
 }
 
 .unbounded-400 {
-    font-family: Unbounded, sans-serif;
+    font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
 .unbounded-500 {
-    font-family: Unbounded, sans-serif;
+    font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
 }
 
 .unbounded-600 {
-    font-family: Unbounded, sans-serif;
+    font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
 }
 
 .unbounded-700 {
-    font-family: Unbounded, sans-serif;
+    font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;

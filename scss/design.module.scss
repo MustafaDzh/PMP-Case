@@ -30,8 +30,6 @@
             }
 
             &-content {
-                width: 90%;
-
                 &_list {
                     &-item {
                         display: flex;
@@ -83,8 +81,6 @@
             gap: 58px;
 
             &_list {
-                padding: 0px 50px;
-
                 &-item {
                     display: flex;
                     gap: 66px;
@@ -144,8 +140,14 @@
                         font-weight: 400;
                     }
 
+                    .title-left,
+                    .subtitle-left {
+                        font-family: "Cormorant Garamond";
+                    }
+
                     .title-left {
                         color: #FFCE34;
+                        font-family: "Cormorant Garamond";
                     }
 
                     .title-right {
