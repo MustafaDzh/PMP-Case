@@ -16,15 +16,28 @@
                 border-radius: 24px;
 
 
-                &:nth-of-type(2) {
-                    position: relative;
+                &:nth-of-type(1) {
+                    background: radial-gradient(circle,
+                            rgba(37, 56, 118, 0.8) 0%,
+                            rgba(37, 56, 118, 0.6) 30%,
+                            rgba(37, 37, 37, 0.8) 70%,
+                            rgba(37, 37, 37, 0.8) 100%);
                 }
+
+                &:nth-of-type(2) {
+                    background: radial-gradient(circle,
+                            rgba(205, 21, 67, 0.6) 0%,
+                            rgba(205, 21, 67, 0.5) 30%,
+                            rgba(37, 37, 37, 0.8) 70%,
+                            rgba(37, 37, 37, 0.8) 100%);
+                }
+
 
                 &-text {
                     position: absolute;
                     bottom: 5%;
                     left: 10%;
-                    width: 60%;
+                    width: 70%;
 
                     .title {
                         font-size: 30px;
@@ -33,12 +46,12 @@
                     }
                 }
 
-              
-                    img {
-                        width: 100%;
-                        height: auto;
-                    }
-                
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
             }
         }
 

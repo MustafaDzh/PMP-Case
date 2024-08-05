@@ -195,18 +195,18 @@
                         gap: 111px;
                     }
 
-                    &:nth-child(3) {
-                        gap: 83px;
+                    .desc {
+                        padding-bottom: 50px;
+                        font-size: 20px;
                     }
 
-                    .details {
+                    .title {
+                        font-size: 20px;
+                    }
+
+                    .color {
                         display: flex;
                         flex-direction: column;
-
-                        &-desc {
-                            height: 165px;
-                            font-size: 20px;
-                        }
 
                         &-buttons {
                             display: flex;
@@ -221,28 +221,107 @@
                                 align-items: center;
                                 gap: 10px;
                                 border-radius: 6px;
+                                font-size: 16px;
+                                line-height: 110%;
+                                border: none;
 
-                                a {
-                                    font-size: 16px;
-                                    line-height: 110%;
-                                }
-                            }
-
-                            &_white {
-                                background: #F8F8F8;
-
-                                a {
+                                &:nth-child(1) {
+                                    background: #F8F8F8;
                                     color: #050505;
+                                }
 
+                                &:nth-child(2) {
+                                    background: #CD1543;
+                                }
+
+                                &:nth-child(3) {
+                                    background: #162041;
+                                }
+                            }
+                        }
+                    }
+
+                    .buttonInfo {
+                        &-buttons {
+                            display: flex;
+                            gap: 54px;
+
+                            &--left,
+                            &--right {
+                                display: flex;
+                                gap: 29px;
+
+                                button {
+                                    display: flex;
+                                    width: 152px;
+                                    padding: 13px 16px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 10px;
+                                    flex-shrink: 0;
+                                    border: none;
+                                    font-size: 14px;
+                                    text-transform: uppercase;
+                                }
+
+                                &_redButton {
+                                    color: #FFF;
+                                }
+
+                                &_state {
+                                    color: #414141;
+                                    background: transparent;
                                 }
                             }
 
-                            &_red {
-                                background: #CD1543;
+                            &--left {
+                                &_redButton {
+                                    background: #CD1543;
+                                }
                             }
 
-                            &_blue {
-                                background: #162041;
+                            &--right {
+                                &_redButton {
+                                    background: #45111A;
+                                    box-shadow: 4px 4px 0px 0px #CD1543;
+                                }
+                            }
+
+                        }
+                    }
+
+                    &-left {
+                        display: flex;
+                        gap: 83px;
+                    }
+
+                    &-right {
+                        display: flex;
+                        width: 100%;
+                        justify-content: center;
+
+                        .dropdown-box_items {
+                            display: inline-flex;
+                            padding: 4px;
+                            flex-direction: column;
+                            gap: 4px;
+                            background: #5A1E29;
+
+                            &-item {
+                                display: flex;
+                                padding: 13px 12px;
+                                align-items: flex-start;
+                                gap: 10px;
+                                align-self: stretch;
+                                text-transform: uppercase;
+                                font-family: Gilroy;
+                                letter-spacing: 0.24px;
+                                font-size: 12px;
+                                font-weight: 500;
+
+                                &:nth-child(2) {
+                                    background: #CD1543;
+                                }
                             }
                         }
                     }

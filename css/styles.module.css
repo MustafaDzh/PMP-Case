@@ -233,14 +233,17 @@
   background: #252525;
   border-radius: 24px;
 }
+.section_challenges-wrapper-images_content:nth-of-type(1) {
+  background: radial-gradient(circle, rgba(37, 56, 118, 0.8) 0%, rgba(37, 56, 118, 0.6) 30%, rgba(37, 37, 37, 0.8) 70%, rgba(37, 37, 37, 0.8) 100%);
+}
 .section_challenges-wrapper-images_content:nth-of-type(2) {
-  position: relative;
+  background: radial-gradient(circle, rgba(205, 21, 67, 0.6) 0%, rgba(205, 21, 67, 0.5) 30%, rgba(37, 37, 37, 0.8) 70%, rgba(37, 37, 37, 0.8) 100%);
 }
 .section_challenges-wrapper-images_content-text {
   position: absolute;
   bottom: 5%;
   left: 10%;
-  width: 60%;
+  width: 70%;
 }
 .section_challenges-wrapper-images_content-text .title {
   font-size: 30px;
@@ -439,23 +442,23 @@
 .section_design-wrapper--details_list-item:nth-child(2) {
   gap: 111px;
 }
-.section_design-wrapper--details_list-item:nth-child(3) {
-  gap: 83px;
+.section_design-wrapper--details_list-item .desc {
+  padding-bottom: 50px;
+  font-size: 20px;
 }
-.section_design-wrapper--details_list-item .details {
+.section_design-wrapper--details_list-item .title {
+  font-size: 20px;
+}
+.section_design-wrapper--details_list-item .color {
   display: flex;
   flex-direction: column;
 }
-.section_design-wrapper--details_list-item .details-desc {
-  height: 165px;
-  font-size: 20px;
-}
-.section_design-wrapper--details_list-item .details-buttons {
+.section_design-wrapper--details_list-item .color-buttons {
   display: flex;
   gap: 31px;
   justify-content: space-between;
 }
-.section_design-wrapper--details_list-item .details-buttons--button {
+.section_design-wrapper--details_list-item .color-buttons--button {
   display: flex;
   padding: 9px 20px;
   width: 100%;
@@ -463,22 +466,84 @@
   align-items: center;
   gap: 10px;
   border-radius: 6px;
-}
-.section_design-wrapper--details_list-item .details-buttons--button a {
   font-size: 16px;
   line-height: 110%;
+  border: none;
 }
-.section_design-wrapper--details_list-item .details-buttons_white {
+.section_design-wrapper--details_list-item .color-buttons--button:nth-child(1) {
   background: #F8F8F8;
-}
-.section_design-wrapper--details_list-item .details-buttons_white a {
   color: #050505;
 }
-.section_design-wrapper--details_list-item .details-buttons_red {
+.section_design-wrapper--details_list-item .color-buttons--button:nth-child(2) {
   background: #CD1543;
 }
-.section_design-wrapper--details_list-item .details-buttons_blue {
+.section_design-wrapper--details_list-item .color-buttons--button:nth-child(3) {
   background: #162041;
+}
+.section_design-wrapper--details_list-item .buttonInfo-buttons {
+  display: flex;
+  gap: 54px;
+}
+.section_design-wrapper--details_list-item .buttonInfo-buttons--left, .section_design-wrapper--details_list-item .buttonInfo-buttons--right {
+  display: flex;
+  gap: 29px;
+}
+.section_design-wrapper--details_list-item .buttonInfo-buttons--left button, .section_design-wrapper--details_list-item .buttonInfo-buttons--right button {
+  display: flex;
+  width: 152px;
+  padding: 13px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.section_design-wrapper--details_list-item .buttonInfo-buttons--left_redButton, .section_design-wrapper--details_list-item .buttonInfo-buttons--right_redButton {
+  color: #FFF;
+}
+.section_design-wrapper--details_list-item .buttonInfo-buttons--left_state, .section_design-wrapper--details_list-item .buttonInfo-buttons--right_state {
+  color: #414141;
+  background: transparent;
+}
+.section_design-wrapper--details_list-item .buttonInfo-buttons--left_redButton {
+  background: #CD1543;
+}
+.section_design-wrapper--details_list-item .buttonInfo-buttons--right_redButton {
+  background: #45111A;
+  box-shadow: 4px 4px 0px 0px #CD1543;
+}
+.section_design-wrapper--details_list-item-left {
+  display: flex;
+  gap: 83px;
+}
+.section_design-wrapper--details_list-item-right {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.section_design-wrapper--details_list-item-right .dropdown-box_items {
+  display: inline-flex;
+  padding: 4px;
+  flex-direction: column;
+  gap: 4px;
+  background: #5A1E29;
+}
+.section_design-wrapper--details_list-item-right .dropdown-box_items-item {
+  display: flex;
+  padding: 13px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  text-transform: uppercase;
+  font-family: Gilroy;
+  letter-spacing: 0.24px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.section_design-wrapper--details_list-item-right .dropdown-box_items-item:nth-child(2) {
+  background: #CD1543;
 }
 
 * {
