@@ -1,0 +1,106 @@
+.section_desktop {
+    padding-top: 111px;
+
+    &-wrapper {
+        &--title {
+            padding-bottom: 99px;
+            padding: 0px 50px;
+
+            .title {
+                font-size: 48px;
+                line-height: 110%;
+            }
+        }
+
+        &--line {
+            padding: 30px 50px;
+        }
+
+        &--content {
+            &_top {
+                display: flex;
+                gap: 123px;
+                padding: 0px 50px;
+
+                .title {
+                    font-size: 20px;
+                }
+
+                &-text {
+                    width: 53%;
+
+                    .subtitle {
+                        font-size: 20px;
+                        line-height: 130%;
+                    }
+                }
+            }
+
+            &_bottom {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 90%;
+
+                &-image {
+                    width: 100%;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%);
+                        pointer-events: none;
+                        z-index: 1;
+                    }
+                }
+
+                &-text {
+                    .subtitle {
+                        font-size: 20px;
+                        line-height: 130%;
+
+                        span {
+                            color: #CD1543;
+                        }
+                    }
+                }
+            }
+
+            &_images {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 9px;
+                padding-left: 118px;
+                padding-right: 108px;
+
+                &-image {
+                    flex: 1 1 calc(33.3333% - 6px);
+                    box-sizing: border-box;
+                    margin-bottom: 8px;
+
+
+                    &:nth-child(3n) {
+                        margin-bottom: 0;
+                    }
+
+                    &.double {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 17px;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
