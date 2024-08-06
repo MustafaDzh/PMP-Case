@@ -80,20 +80,20 @@
 
                 &-image {
                     flex: 1 1 calc(33.3333% - 6px);
-                    box-sizing: border-box;
-                    margin-bottom: 8px;
+                    box-sizing: border-box; 
+                    margin-bottom: 8px; 
 
-
+                    
                     &:nth-child(3n) {
-                        margin-bottom: 0;
+                        margin-bottom: 0; 
                     }
 
                     &.double {
                         display: flex;
                         flex-direction: column;
-                        gap: 17px;
+                        gap: 17px; 
                     }
-
+                    
                     img {
                         width: 100%;
                         height: auto;

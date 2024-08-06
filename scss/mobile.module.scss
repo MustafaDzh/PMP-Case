@@ -1,0 +1,63 @@
+.section_mobile {
+    padding-top: 107px;
+    position: relative;
+
+    &-wrapper {
+
+        &--svg {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+        }
+
+        &--title {
+            padding-bottom: 99px;
+            padding: 0px 50px;
+
+            .title {
+                font-size: 48px;
+                line-height: 110%;
+            }
+        }
+
+        &--line {
+            padding: 30px 50px;
+        }
+
+        &--content {
+            display: flex;
+            gap: 123px;
+            padding: 0px 50px;
+            min-height: 1450px; 
+
+            .title {
+                font-size: 20px;
+            }
+
+            &-text {
+                width: 716px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+
+                .subtitle {
+                    font-size: 20px;
+                    line-height: 130%;
+                }
+
+                &_bottom {
+                    width: 386px;
+                    margin: auto 0; 
+                }
+            }
+
+            &-svg {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+            }
+        }
+    }
+}
