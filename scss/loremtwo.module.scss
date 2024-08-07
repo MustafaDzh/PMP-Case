@@ -1,0 +1,37 @@
+.section_last {
+    width: 100%;
+    padding-top: 155px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &-wrapper {
+        width: 75%;
+        margin: 0 auto;
+
+        &--content {
+            display: flex;
+
+            &_text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                .subtitle {
+                    width: 80%;
+                    font-size: 20px;
+                }
+
+                .title {
+                    font-size: 36px;
+                    color: #414141;
+                    line-height: 110%;
+                    width: 70%;
+
+                    span {
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+    }
+}

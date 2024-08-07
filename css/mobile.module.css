@@ -18,6 +18,9 @@
 .section_mobile-wrapper--line {
   padding: 30px 50px;
 }
+.section_mobile-wrapper--line svg {
+  width: 100%;
+}
 .section_mobile-wrapper--content {
   display: flex;
   gap: 123px;

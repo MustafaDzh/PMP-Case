@@ -8,6 +8,7 @@
 }
 .section_design {
   padding-top: 118px;
+  max-width: 1440px;
 }
 .section_design-wrapper {
   padding: 0px 50px;
@@ -19,6 +20,9 @@
 .section_design-wrapper--system-line {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.section_design-wrapper--system-line svg {
+  width: 100%;
 }
 .section_design-wrapper--system-content_list-item {
   display: flex;

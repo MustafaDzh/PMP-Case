@@ -18,28 +18,23 @@
 
   .section_hero {
     &-wrapper {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-
       &--content {
         text-align: center;
         width: 65%;
         margin: 0 auto;
+        margin-bottom: 24px;
 
         &_headline {
           display: flex;
           flex-direction: column;
-          gap: 32px;
+          gap: 24px;
           align-items: center;
 
           a {
             display: flex;
-            width: 160px;
             padding: 10px 24px;
             justify-content: center;
             align-items: center;
-            gap: 8px;
             border-radius: 38px;
             background: #0DB14B;
             white-space: nowrap;
@@ -62,6 +57,7 @@
         height: 100%;
         position: relative;
         border-radius: 50px;
+        margin-bottom: 10px;
 
         img {
           width: 100%;

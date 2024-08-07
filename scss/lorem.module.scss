@@ -1,5 +1,7 @@
 .section_lorem {
     padding-top: 90px;
+    max-width: 1440px;
+    margin: 0 auto;
 
     &-wrapper {
         padding: 0px 50px;
@@ -16,6 +18,10 @@
         &--line {
             margin-top: 39px;
             margin-bottom: 39px;
+
+            svg {
+                width: 100%;
+            }
         }
 
         &--content {

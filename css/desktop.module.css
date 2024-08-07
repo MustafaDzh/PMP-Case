@@ -15,6 +15,9 @@
 .section_desktop-wrapper--line {
   padding: 30px 50px;
 }
+.section_desktop-wrapper--line svg {
+  width: 100%;
+}
 .section_desktop-wrapper--content_top {
   display: flex;
   gap: 123px;
