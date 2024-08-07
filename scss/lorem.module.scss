@@ -19,15 +19,8 @@
         }
 
         &--content {
-            &_list {
-                &-item {
-                    display: flex;
-                }
-            }
-
             .text-card {
                 display: flex;
-                align-items: flex-start;
                 gap: 84px;
                 font-size: 20px;
                 padding-bottom: 50px;
@@ -43,7 +36,7 @@
             }
 
             .section_lorem-wrapper--content_list-item:first-child .text-card {
-                gap: 125px;
+                gap: 135px;
             }
         }
     }

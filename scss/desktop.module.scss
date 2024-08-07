@@ -1,5 +1,8 @@
 .section_desktop {
     padding-top: 111px;
+    max-width: calc(1440px - 2%);
+    margin: 0 auto;
+    width: 100%;
 
     &-wrapper {
         &--title {
@@ -39,8 +42,7 @@
             &_bottom {
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
-                width: 90%;
+                width: 94%;
 
                 &-image {
                     width: 100%;
@@ -75,25 +77,23 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 9px;
-                padding-left: 118px;
-                padding-right: 108px;
+                padding: 0 108px 0 118px;
 
                 &-image {
                     flex: 1 1 calc(33.3333% - 6px);
-                    box-sizing: border-box; 
-                    margin-bottom: 8px; 
+                    margin-bottom: 8px;
 
-                    
+
                     &:nth-child(3n) {
-                        margin-bottom: 0; 
+                        margin-bottom: 0;
                     }
 
                     &.double {
                         display: flex;
                         flex-direction: column;
-                        gap: 17px; 
+                        gap: 17px;
                     }
-                    
+
                     img {
                         width: 100%;
                         height: auto;

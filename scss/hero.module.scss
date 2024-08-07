@@ -24,6 +24,8 @@
 
       &--content {
         text-align: center;
+        width: 65%;
+        margin: 0 auto;
 
         &_headline {
           display: flex;
@@ -40,6 +42,8 @@
             gap: 8px;
             border-radius: 38px;
             background: #0DB14B;
+            white-space: nowrap;
+            text-transform: uppercase;
           }
         }
 
@@ -108,25 +112,22 @@
 
       &--client {
         display: flex;
-        justify-content: space-between;
         border-radius: 24px;
         background: #252525;
         padding: 40px 33px;
 
         &-about {
-          display: flex;
-          flex-direction: column;
-          gap: 28px;
-
           .title {
             color: #0db14b;
             font-size: 32px;
             text-transform: uppercase;
+            margin-bottom: 28px;
           }
 
           .subtitle {
             font-size: 16px;
             line-height: 20.8px;
+            width: 65%;
           }
         }
 
@@ -146,20 +147,16 @@
               font-feature-settings: "liga" off, "clig" off;
               font-size: 64px;
               line-height: 50px;
-              display: inline-block;
             }
 
             .subtitle {
               font-feature-settings: "liga" off, "clig" off;
-              font-size: 16px;
+              font-size: 14px;
               line-height: 150%;
             }
           }
 
           &_left {
-            max-width: 192px;
-            width: 100%;
-            display: flex;
             align-items: flex-end;
 
             .subtitle {
@@ -168,8 +165,12 @@
           }
 
           &_right {
-            max-width: 138px;
+            max-width: 148px;
             width: 100%;
+
+            .subtitle {
+              text-align: center;
+            }
           }
         }
       }

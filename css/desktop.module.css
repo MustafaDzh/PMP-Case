@@ -1,5 +1,8 @@
 .section_desktop {
   padding-top: 111px;
+  max-width: calc(1440px - 2%);
+  margin: 0 auto;
+  width: 100%;
 }
 .section_desktop-wrapper--title {
   padding-bottom: 99px;
@@ -30,8 +33,7 @@
 .section_desktop-wrapper--content_bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 90%;
+  width: 94%;
 }
 .section_desktop-wrapper--content_bottom-image {
   width: 100%;
@@ -59,12 +61,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 9px;
-  padding-left: 118px;
-  padding-right: 108px;
+  padding: 0 108px 0 118px;
 }
 .section_desktop-wrapper--content_images-image {
   flex: 1 1 calc(33.3333% - 6px);
-  box-sizing: border-box;
   margin-bottom: 8px;
 }
 .section_desktop-wrapper--content_images-image:nth-child(3n) {

@@ -15,12 +15,8 @@
   margin-top: 39px;
   margin-bottom: 39px;
 }
-.section_lorem-wrapper--content_list-item {
-  display: flex;
-}
 .section_lorem-wrapper--content .text-card {
   display: flex;
-  align-items: flex-start;
   gap: 84px;
   font-size: 20px;
   padding-bottom: 50px;
@@ -33,7 +29,7 @@
   color: #FFCE34;
 }
 .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card {
-  gap: 125px;
+  gap: 135px;
 }
 
 /*# sourceMappingURL=lorem.module.css.map */

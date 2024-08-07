@@ -1,5 +1,7 @@
 .section_sitemap {
     padding-top: 113px;
+    width: 98%;
+    margin: 0 auto;
 
     &-wrapper {
         display: flex;
@@ -20,25 +22,33 @@
         &--site {
             display: flex;
             padding: 40px 33px;
-            flex-direction: column;
-            gap: 28px;
+            gap: 194px;
             border-radius: 24px;
             background: #252525;
 
-            &_text {
+            &_left {
                 display: flex;
-                justify-content: space-between;
-                align-items: flex-start;
+                flex-direction: column;
+                gap: 28px;
 
-                &-info {
-                    font-variant-numeric: ordinal;
-                    font-size: 14px;
-                    flex: 1;
+                &-title {
+                    .title {
+                        color: #0DB14B;
+                        font-size: 32px;
+                        text-transform: uppercase;
+                    }
                 }
 
-                &-info:last-child {
-                    text-align: right;
+                &-text {
+                    &_info {
+                        font-size: 16px;
+                    }
                 }
+            }
+
+            &_right {
+                display: flex;
+                align-items: flex-end;
             }
         }
     }

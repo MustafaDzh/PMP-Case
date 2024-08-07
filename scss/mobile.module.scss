@@ -1,19 +1,15 @@
 .section_mobile {
     padding-top: 107px;
-    position: relative;
+    max-width: calc(1440px - 2%);
+    width: 100%;
+    margin: 0 auto;
 
     &-wrapper {
-
-        &--svg {
-            position: absolute;
-            top: 0;
-            right: 0;
-            height: 100%;
-        }
+        position: relative;
 
         &--title {
-            padding-bottom: 99px;
             padding: 0px 50px;
+            margin-bottom: 109px;
 
             .title {
                 font-size: 48px;
@@ -29,17 +25,25 @@
             display: flex;
             gap: 123px;
             padding: 0px 50px;
-            min-height: 1450px; 
+            min-height: 1450px;
+            margin-bottom: -110px;
 
-            .title {
-                font-size: 20px;
+            &-svg {
+                position: absolute;
+                top: 5%;
+                right: 0;
+                height: 100%;
+
+                img {
+                    height: 100%;
+                }
             }
 
             &-text {
                 width: 716px;
                 display: flex;
                 flex-direction: column;
-                justify-content: center; 
+                justify-content: center;
 
                 .subtitle {
                     font-size: 20px;
@@ -48,15 +52,8 @@
 
                 &_bottom {
                     width: 386px;
-                    margin: auto 0; 
+                    margin: auto 0;
                 }
-            }
-
-            &-svg {
-                position: absolute;
-                top: 0;
-                right: 0;
-                height: 100%;
             }
         }
     }
