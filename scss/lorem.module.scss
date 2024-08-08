@@ -6,6 +6,10 @@
     &-wrapper {
         padding: 0px 50px;
 
+        @media screen and (max-width:768px) {
+            padding: 0px 20px;
+        }
+
         &--title {
             padding: 10px 0px;
             margin-bottom: 59px;
@@ -30,6 +34,10 @@
                 gap: 84px;
                 font-size: 20px;
                 padding-bottom: 50px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                }
 
                 &--desc {
                     font-feature-settings: 'liga' off, 'clig' off;

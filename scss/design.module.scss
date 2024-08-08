@@ -41,19 +41,28 @@
                         display: flex;
                         gap: 117px;
                         min-height: 390px;
+                        height: 100%;
+                        font-size: 20px;
+
+                        @media screen and (max-width:768px) {
+                            padding-bottom: 30px;
+                        }
+
+                        @media screen and (max-width:768px) {
+                            font-size: 17px;
+                        }
 
                         .title {
-                            font-size: 20px;
                             font-feature-settings: 'liga' off, 'clig' off;
                             line-height: 110%;
                         }
 
-                        .desc {
-                            font-size: 20px;
-                        }
-
                         .item-svg {
                             margin-right: 50px;
+
+                            @media screen and (max-width:1024px) {
+                                display: none;
+                            }
 
                             svg path {
                                 opacity: 0;
@@ -90,10 +99,10 @@
                 &-item {
                     display: flex;
                     gap: 66px;
+                    font-size: 20px;
 
-                    .title,
-                    .desc {
-                        font-size: 20px;
+                    @media screen and (max-width:768px) {
+                        font-size: 17px;
                     }
 
                     .desc {
@@ -106,6 +115,10 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 16px;
+
+                @media screen and (max-width:1024px) {
+                    grid-template-columns: auto;
+                }
 
                 .card {
                     background: #252525;
@@ -133,6 +146,10 @@
                     .title-right {
                         font-size: 340px;
                         line-height: 90%;
+
+                        @media screen and (max-width:768px) {
+                            font-size: 200px;
+                        }
                     }
 
                     .subtitle-left,
@@ -142,6 +159,10 @@
                         line-height: 90%;
                         font-weight: 400;
                         width: 65%;
+
+                        @media screen and (max-width:768px) {
+                            font-size: 40px;
+                        }
                     }
 
                     .title-left,
@@ -164,12 +185,20 @@
                     .desc {
                         font-size: 20px;
                         line-height: 110%;
+
+                        @media screen and (max-width:768px) {
+                            font-size: 18px;
+                        }
                     }
 
                     .subtitle-main {
                         font-feature-settings: 'liga' off, 'clig' off;
                         font-family: "Cormorant Garamond";
                         font-size: 44px;
+
+                        @media screen and (max-width:768px) {
+                            font-size: 34px;
+                        }
                     }
 
                     .desc {
@@ -193,8 +222,17 @@
                 &-item {
                     display: flex;
 
+                    @media screen and (max-width:1024px) {
+                        flex-direction: column;
+                    }
+
                     &:nth-child(1) {
                         gap: 130px;
+
+                        @media screen and (max-width:1024px) {
+                            flex-direction: column;
+                            gap: 50px;
+                        }
                     }
 
                     &:nth-child(2) {
@@ -251,6 +289,10 @@
                         &-buttons {
                             display: flex;
                             gap: 54px;
+
+                            @media screen and (max-width:1024px) {
+                                flex-direction: column;
+                            }
 
                             &--left,
                             &--right {

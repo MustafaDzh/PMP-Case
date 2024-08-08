@@ -39,16 +39,28 @@
             background: #0DB14B;
             white-space: nowrap;
             text-transform: uppercase;
+
+            p{
+              font-size: 14px;
+            }
           }
         }
 
         .title {
           font-size: 72px;
           text-transform: uppercase;
+
+          @media screen and (max-width:768px) {
+            font-size: 60px;
+          }
         }
 
         .subtitle {
           font-size: 20px;
+
+          @media screen and (max-width:768px) {
+            font-size: 18px;
+          }
         }
       }
 
@@ -112,7 +124,16 @@
         background: #252525;
         padding: 40px 33px;
 
+        @media screen and (max-width:768px) {
+          flex-direction: column;
+          gap: 50px;
+        }
+
         &-about {
+          @media screen and (max-width:768px) {
+            align-items: center;
+            display: flex;
+          }
           .title {
             color: #0db14b;
             font-size: 32px;
@@ -130,6 +151,10 @@
         &-statics {
           display: flex;
           gap: 78px;
+
+          @media screen and (max-width:768px) {
+            justify-content: space-around;
+          }
 
           &_left,
           &_right {

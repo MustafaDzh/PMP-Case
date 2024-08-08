@@ -29,8 +29,25 @@
             display: flex;
             gap: 123px;
             padding: 0px 50px;
-            min-height: 1450px;
+            height: 1450px;
             margin-bottom: -110px;
+
+            &-title{
+                width: 10%;
+
+                @media screen and (max-width:1024px) {
+                    width: 20%;
+                };
+
+                .title{
+                    font-size: 20px;
+                }
+            }
+
+            @media screen and (max-width:1024px) {
+                height:auto;
+                margin-bottom: 0px;
+            }
 
             &-svg {
                 position: absolute;
@@ -38,16 +55,25 @@
                 right: 0;
                 height: 100%;
 
+                @media screen and (max-width: 1024px) {
+                    display: none;
+                }
+
                 img {
                     height: 100%;
                 }
             }
 
             &-text {
-                width: 716px;
+                width: 52%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+
+                @media screen and (max-width:1024px) {
+                    width: 100%;
+                    gap: 50px;
+                }
 
                 .subtitle {
                     font-size: 20px;
@@ -55,8 +81,12 @@
                 }
 
                 &_bottom {
-                    width: 386px;
+                    width: 55%;
                     margin: auto 0;
+
+                    @media screen and (max-width:1024px) {
+                        width: 100%;
+                    }
                 }
             }
         }

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/loremtwo.module.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;;AAEA;EACI;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI","file":"loremtwo.module.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/loremtwo.module.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;;AAEA;EAHJ;IAIQ;IACA;;;AAGJ;EACI;EACA;EACA;;AAEA;EALJ;IAMQ;;;AAGJ;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI","file":"loremtwo.module.css"}

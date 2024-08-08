@@ -6,6 +6,11 @@
 .section_lorem-wrapper {
   padding: 0px 50px;
 }
+@media screen and (max-width: 768px) {
+  .section_lorem-wrapper {
+    padding: 0px 20px;
+  }
+}
 .section_lorem-wrapper--title {
   padding: 10px 0px;
   margin-bottom: 59px;
@@ -25,6 +30,11 @@
   gap: 84px;
   font-size: 20px;
   padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .section_lorem-wrapper--content .text-card {
+    font-size: 18px;
+  }
 }
 .section_lorem-wrapper--content .text-card--desc {
   font-feature-settings: "liga" off, "clig" off;

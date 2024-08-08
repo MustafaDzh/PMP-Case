@@ -37,6 +37,11 @@
 .section_sitemap-wrapper--site_left-text_info {
   font-size: 16px;
 }
+@media screen and (max-width: 768px) {
+  .section_sitemap-wrapper--site_left-text_info {
+    font-size: 14px;
+  }
+}
 .section_sitemap-wrapper--site_right {
   display: flex;
   align-items: flex-end;
