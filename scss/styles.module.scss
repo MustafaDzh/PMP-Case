@@ -146,12 +146,9 @@ html body ul {
             font-weight: 700;
         }
     }
-
-    .desc {
-        font-size: 15px;
-    }
-
-    .subtitle {
-        font-size: 15px;
+    .desc , .subtitle {
+        @media screen and (max-width:480px) {
+            font-size: 15px 
+        }
     }
 }

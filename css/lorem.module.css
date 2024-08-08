@@ -83,7 +83,7 @@
 }
 @media screen and (max-width: 480px) {
   .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card--desc {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 

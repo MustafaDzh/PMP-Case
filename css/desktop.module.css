@@ -33,7 +33,7 @@
   font-size: 20px;
 }
 .section_desktop-wrapper--content_top-text {
-  width: 53%;
+  width: 54%;
 }
 @media screen and (max-width: 1024px) {
   .section_desktop-wrapper--content_top-text {
@@ -91,7 +91,7 @@
   z-index: 1;
 }
 .section_desktop-wrapper--content_bottom-text {
-  width: 30%;
+  width: 35%;
 }
 .section_desktop-wrapper--content_bottom-text .subtitle {
   font-size: 20px;
