@@ -40,7 +40,7 @@
             white-space: nowrap;
             text-transform: uppercase;
 
-            p{
+            p {
               font-size: 14px;
             }
           }
@@ -53,6 +53,10 @@
           @media screen and (max-width:768px) {
             font-size: 60px;
           }
+
+          @media screen and (max-width:480px) {
+            font-size: 50px;
+          }
         }
 
         .subtitle {
@@ -60,6 +64,10 @@
 
           @media screen and (max-width:768px) {
             font-size: 18px;
+          }
+
+          @media screen and (max-width:768px) {
+            font-size: 16px;
           }
         }
       }
@@ -75,14 +83,21 @@
           width: 100%;
         }
 
-        &_svg1 {
+        &_svg1,
+        &_svg2 {
           position: absolute;
+
+          @media screen and (max-width:768px) {
+            display: none;
+          }
+        }
+
+        &_svg1 {
           top: 10%;
           right: 10%;
         }
 
         &_svg2 {
-          position: absolute;
           bottom: 5%;
           left: 20%;
         }
@@ -134,6 +149,14 @@
             align-items: center;
             display: flex;
           }
+
+          @media screen and (max-width:480px) {
+            flex-direction: column;
+            align-items: start;
+          }
+
+          ;
+
           .title {
             color: #0db14b;
             font-size: 32px;
@@ -145,6 +168,10 @@
             font-size: 16px;
             line-height: 20.8px;
             width: 65%;
+
+            @media screen and (max-width:480px) {
+              width: 100%;
+            }
           }
         }
 
@@ -156,11 +183,20 @@
             justify-content: space-around;
           }
 
+          @media screen and (max-width:480px) {
+            flex-direction: column;
+            gap: 40px;
+          }
+
           &_left,
           &_right {
             display: flex;
             flex-direction: column;
             gap: 25px;
+
+            @media screen and (max-width:480px) {
+              gap: 10px;
+            }
 
             .title {
               color: #ffce34;
@@ -168,6 +204,10 @@
               font-feature-settings: "liga" off, "clig" off;
               font-size: 64px;
               line-height: 50px;
+
+              @media screen and (max-width:480px) {
+                font-size: 50px;
+              }
             }
 
             .subtitle {
@@ -180,6 +220,10 @@
           &_left {
             align-items: flex-end;
 
+            @media screen and (max-width:480px) {
+              align-items: start;
+            }
+
             .subtitle {
               width: 80%;
             }
@@ -189,8 +233,16 @@
             max-width: 148px;
             width: 100%;
 
+            @media screen and (max-width:480px) {
+              max-width: none;
+            }
+
             .subtitle {
               text-align: center;
+
+              @media screen and (max-width:480px) {
+                text-align: start;
+              }
             }
           }
         }

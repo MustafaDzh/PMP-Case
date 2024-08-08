@@ -3,6 +3,10 @@
     max-width: 1440px;
     margin: 0 auto;
 
+    @media screen and (max-width:480px) {
+        padding-top: 50px;
+    }
+
     &-wrapper {
         padding: 0px 50px;
 
@@ -14,14 +18,26 @@
             padding: 10px 0px;
             margin-bottom: 59px;
 
+
+            @media screen and (max-width:480px) {
+                margin-bottom: 0px
+            }
+
             &_text {
                 width: 416px;
+
+                @media screen and (max-width:480px) {
+                    width: 100%;
+                }
             }
         }
 
         &--line {
-            margin-top: 39px;
-            margin-bottom: 39px;
+            margin: 39px 0;
+
+            @media screen and (max-width:480px) {
+                margin: 15px 0px;
+            }
 
             svg {
                 width: 100%;
@@ -35,13 +51,25 @@
                 font-size: 20px;
                 padding-bottom: 50px;
 
+
                 @media screen and (max-width: 768px) {
                     font-size: 18px;
+                }
+
+                ;
+
+                @media screen and (max-width:480px) {
+                    gap: 25px;
+                    flex-direction: column;
                 }
 
                 &--desc {
                     font-feature-settings: 'liga' off, 'clig' off;
                     line-height: 130%;
+
+                    @media screen and (max-width:480px) {
+                        font-size: 15px;
+                    }
 
                     span {
                         color: #FFCE34;
@@ -51,6 +79,16 @@
 
             .section_lorem-wrapper--content_list-item:first-child .text-card {
                 gap: 135px;
+
+                @media screen and (max-width:480px) {
+                    gap: 25px;
+                }
+
+                &--desc {
+                    @media screen and (max-width:480px) {
+                        font-size: 16px;
+                    }
+                }
             }
         }
     }

@@ -17,6 +17,7 @@
 
         &--line {
             padding: 30px 50px;
+
             svg {
                 width: 100%;
             }
@@ -50,6 +51,7 @@
 
                         @media screen and (max-width:768px) {
                             font-size: 18px;
+                            margin-bottom: 50px;
                         }
                     }
                 }
@@ -61,18 +63,25 @@
                 width: 90%;
                 justify-content: space-between;
 
-                
+                @media screen and (max-width:480px) {
+                    margin: 0 auto;
+                    padding: 0px 50px;
+                }
 
                 &-image {
                     width: 100%;
                     position: relative;
 
-                    img{
+                    img {
                         width: 100%;
                     }
 
                     @media screen and (max-width:1024px) {
                         width: 60%;
+                    }
+
+                    @media screen and (max-width:480px) {
+                        display: none;
                     }
 
                     &::before {
@@ -90,6 +99,7 @@
 
                 &-text {
                     width: 30%;
+
                     .subtitle {
                         font-size: 20px;
                         line-height: 130%;
@@ -98,8 +108,13 @@
                             color: #CD1543;
                         }
                     }
+
                     @media screen and (max-width:1024px) {
                         width: 40%;
+                    }
+
+                    @media screen and (max-width:480px) {
+                        width: 100%;
                     }
                 }
             }
@@ -109,6 +124,16 @@
                 flex-wrap: wrap;
                 gap: 9px;
                 padding: 0 108px 0 118px;
+
+                @media screen and (max-width:1024px) {
+                    padding-top: 50px;
+                    ;
+                }
+
+                @media screen and (max-width:480px) {
+                    flex-direction: column;
+                    padding: 50px 50px;
+                }
 
                 &-image {
                     flex: 1 1 calc(33.3333% - 6px);

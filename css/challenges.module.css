@@ -6,6 +6,11 @@
     padding-top: 50px;
   }
 }
+@media screen and (max-width: 480px) {
+  .section_challenges {
+    padding-top: 20px;
+  }
+}
 .section_challenges-wrapper-images {
   display: flex;
   gap: 16px;
@@ -28,6 +33,11 @@
     height: 650px;
   }
 }
+@media screen and (max-width: 480px) {
+  .section_challenges-wrapper-images_content {
+    height: 500px;
+  }
+}
 .section_challenges-wrapper-images_content-imageL {
   position: absolute;
   bottom: -1%;
@@ -46,6 +56,12 @@
 @media screen and (max-width: 768px) {
   .section_challenges-wrapper-images_content-text .title {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_challenges-wrapper-images_content-text .title {
+    font-size: 18px;
+    text-align: center;
   }
 }
 .section_challenges-wrapper-images_content img {
@@ -85,6 +101,12 @@
     width: 50%;
   }
 }
+@media screen and (max-width: 480px) {
+  .section_challenges-wrapper-cards_card .subtitle {
+    width: 100%;
+    font-size: 14px;
+  }
+}
 .section_challenges-wrapper-cards_card:nth-of-type(1) {
   gap: 18px;
   padding: 48px 33px;
@@ -94,6 +116,11 @@
   font-size: 32px;
   line-height: 110%;
   text-transform: uppercase;
+}
+@media screen and (max-width: 480px) {
+  .section_challenges-wrapper-cards_card:nth-of-type(1) .title {
+    font-size: 20px;
+  }
 }
 .section_challenges-wrapper-cards_card:nth-of-type(1) .subtitle {
   text-align: start;

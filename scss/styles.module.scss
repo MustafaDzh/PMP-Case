@@ -128,5 +128,30 @@ html body ul {
     .title {
         font-size: 48px;
         line-height: 110%;
+
+        @media screen and (max-width:480px) {
+            font-size: 30px;
+        }
+    }
+}
+
+.section_design-wrapper--system-content_list-item,
+.section_design-wrapper--typography_list-item,
+.section_design-wrapper--details_list-item,
+.section_desktop-wrapper--content_top-title,
+.section_mobile-wrapper--content-title {
+    .title {
+        @media screen and (max-width:480px) {
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+
+    .desc {
+        font-size: 15px;
+    }
+
+    .subtitle {
+        font-size: 15px;
     }
 }

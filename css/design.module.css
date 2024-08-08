@@ -11,16 +11,30 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+@media screen and (max-width: 480px) {
+  .section_design {
+    padding-top: 50px;
+  }
+}
 .section_design-wrapper {
   padding: 0px 50px;
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper {
+    padding: 0px 20px;
+  }
 }
 .section_design-wrapper--system-title {
   padding: 10px 0px;
   margin-bottom: 59px;
 }
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--system-title {
+    margin-bottom: 0px;
+  }
+}
 .section_design-wrapper--system-line {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0px;
 }
 .section_design-wrapper--system-line svg {
   width: 100%;
@@ -35,11 +49,15 @@
 @media screen and (max-width: 768px) {
   .section_design-wrapper--system-content_list-item {
     padding-bottom: 30px;
+    font-size: 17px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .section_design-wrapper--system-content_list-item {
-    font-size: 17px;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 15px;
+    min-height: 200px;
   }
 }
 .section_design-wrapper--system-content_list-item .title {
@@ -85,8 +103,11 @@
     font-size: 17px;
   }
 }
-.section_design-wrapper--typography_list-item .desc {
-  line-height: 130%;
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--typography_list-item {
+    flex-direction: column;
+    gap: 25px;
+  }
 }
 .section_design-wrapper--typography_cards {
   display: grid;
@@ -117,6 +138,12 @@
   flex-direction: column;
   gap: 20px;
 }
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--typography_cards .card.bottom .bottom-left,
+  .section_design-wrapper--typography_cards .card.bottom .bottom-right {
+    padding: 10px;
+  }
+}
 .section_design-wrapper--typography_cards .card .title-left,
 .section_design-wrapper--typography_cards .card .title-right {
   font-size: 340px;
@@ -126,6 +153,12 @@
   .section_design-wrapper--typography_cards .card .title-left,
   .section_design-wrapper--typography_cards .card .title-right {
     font-size: 200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--typography_cards .card .title-left,
+  .section_design-wrapper--typography_cards .card .title-right {
+    font-size: 130px;
   }
 }
 .section_design-wrapper--typography_cards .card .subtitle-left,
@@ -140,6 +173,12 @@
   .section_design-wrapper--typography_cards .card .subtitle-left,
   .section_design-wrapper--typography_cards .card .subtitle-right {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--typography_cards .card .subtitle-left,
+  .section_design-wrapper--typography_cards .card .subtitle-right {
+    font-size: 30px;
   }
 }
 .section_design-wrapper--typography_cards .card .title-left,
@@ -168,6 +207,14 @@
     font-size: 18px;
   }
 }
+@media screen and (max-width: 768px) {
+  .section_design-wrapper--typography_cards .card .title,
+  .section_design-wrapper--typography_cards .card .subtitle,
+  .section_design-wrapper--typography_cards .card .subtitle-main,
+  .section_design-wrapper--typography_cards .card .desc {
+    font-size: 15px;
+  }
+}
 .section_design-wrapper--typography_cards .card .subtitle-main {
   font-feature-settings: "liga" off, "clig" off;
   font-family: "Cormorant Garamond";
@@ -176,6 +223,11 @@
 @media screen and (max-width: 768px) {
   .section_design-wrapper--typography_cards .card .subtitle-main {
     font-size: 34px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--typography_cards .card .subtitle-main {
+    font-size: 30px;
   }
 }
 .section_design-wrapper--typography_cards .card .desc {
@@ -187,10 +239,20 @@
 .section_design-wrapper--details {
   padding-top: 105px;
 }
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--details {
+    padding-top: 50px;
+  }
+}
 .section_design-wrapper--details_list {
   display: flex;
   flex-direction: column;
   gap: 115px;
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--details_list {
+    gap: 50px;
+  }
 }
 .section_design-wrapper--details_list-item {
   display: flex;
@@ -209,12 +271,27 @@
     gap: 50px;
   }
 }
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--details_list-item:nth-child(1) {
+    gap: 25px;
+  }
+}
 .section_design-wrapper--details_list-item:nth-child(2) {
   gap: 111px;
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--details_list-item:nth-child(2) {
+    gap: 30px;
+  }
 }
 .section_design-wrapper--details_list-item .desc {
   padding-bottom: 50px;
   font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--details_list-item .desc {
+    padding-bottom: 20px;
+  }
 }
 .section_design-wrapper--details_list-item .title {
   font-size: 20px;
@@ -227,6 +304,12 @@
   display: flex;
   gap: 31px;
   justify-content: space-between;
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--details_list-item .color-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 .section_design-wrapper--details_list-item .color-buttons--button {
   display: flex;
@@ -257,6 +340,11 @@
 @media screen and (max-width: 1024px) {
   .section_design-wrapper--details_list-item .buttonInfo-buttons {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--details_list-item .buttonInfo-buttons {
+    gap: 20px;
   }
 }
 .section_design-wrapper--details_list-item .buttonInfo-buttons--left, .section_design-wrapper--details_list-item .buttonInfo-buttons--right {
@@ -292,6 +380,12 @@
 .section_design-wrapper--details_list-item-left {
   display: flex;
   gap: 83px;
+}
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--details_list-item-left {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 .section_design-wrapper--details_list-item-right {
   display: flex;
