@@ -9,6 +9,7 @@
 .section_design {
   padding-top: 118px;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .section_design-wrapper {
   padding: 0px 50px;
