@@ -291,7 +291,6 @@
 
 .section_lorem {
   padding-top: 90px;
-  max-width: 1440px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
@@ -530,6 +529,7 @@
   border-radius: 24px;
   background: #252525;
   padding: 48px 33px;
+  gap: 18px;
 }
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card {
@@ -611,7 +611,6 @@
 }
 .section_design {
   padding-top: 118px;
-  max-width: 1440px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
@@ -1065,7 +1064,6 @@
   gap: 194px;
   border-radius: 24px;
   background: #252525;
-  max-width: 1440px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
@@ -1109,7 +1107,6 @@
 
 .section_desktop {
   padding-top: 111px;
-  max-width: calc(1440px - 2%);
   margin: 0 auto;
   width: 100%;
 }
@@ -1314,9 +1311,7 @@
 
 .section_mobile {
   padding-top: 107px;
-  max-width: calc(1440px - 2%);
   width: 100%;
-  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .section_mobile {
@@ -1433,7 +1428,6 @@
 .section_last {
   width: 100%;
   padding-top: 155px;
-  max-width: 1440px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {

@@ -140,6 +140,7 @@
   border-radius: 24px;
   background: #252525;
   padding: 48px 33px;
+  gap: 18px;
 }
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card {

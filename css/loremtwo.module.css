@@ -1,7 +1,6 @@
 .section_last {
   width: 100%;
   padding-top: 155px;
-  max-width: 1440px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {

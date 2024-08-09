@@ -1,8 +1,6 @@
 .section_mobile {
   padding-top: 107px;
-  max-width: calc(1440px - 2%);
   width: 100%;
-  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .section_mobile {
