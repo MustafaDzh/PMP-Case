@@ -144,6 +144,9 @@
 
                     &.top {
                         padding: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
                     }
 
                     &.bottom {
@@ -166,33 +169,35 @@
 
                     .title-left,
                     .title-right {
-                        font-size: 340px;
-                        line-height: 90%;
 
-                        @media screen and (max-width:768px) {
-                            font-size: 200px;
+                        svg{
+                            @media screen and (max-width:768px) {
+                                width:200px;
+                                height:150px;
+                            }
+                            @media screen and (max-width:480px) {
+                                width: 150px;
+                                height: 100px;
+                            }
                         }
-
-                        @media screen and (max-width:480px) {
-                            font-size: 130px;
-                        }
+                       
                     }
 
                     .subtitle-left,
                     .subtitle-right {
-                        color: #BBB;
-                        font-size: 64px;
-                        line-height: 90%;
-                        font-weight: 400;
-                        width: 65%;
 
-                        @media screen and (max-width:768px) {
-                            font-size: 40px;
+                        svg{
+                            @media screen and (max-width:768px) {
+                                width: 150px;
+                                height: 100px;
+                            }
+    
+                            @media screen and (max-width:768px) {
+                                width: 120px;
+                                height: 70px;
+                            }
                         }
-
-                        @media screen and (max-width:480px) {
-                            font-size: 30px;
-                        }
+                       
                     }
 
                     .title-left,

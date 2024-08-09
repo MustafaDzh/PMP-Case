@@ -125,6 +125,9 @@
 }
 .section_design-wrapper--typography_cards .card.top {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .section_design-wrapper--typography_cards .card.bottom {
   display: flex;
@@ -144,41 +147,32 @@
     padding: 10px;
   }
 }
-.section_design-wrapper--typography_cards .card .title-left,
-.section_design-wrapper--typography_cards .card .title-right {
-  font-size: 340px;
-  line-height: 90%;
-}
 @media screen and (max-width: 768px) {
-  .section_design-wrapper--typography_cards .card .title-left,
-  .section_design-wrapper--typography_cards .card .title-right {
-    font-size: 200px;
+  .section_design-wrapper--typography_cards .card .title-left svg,
+  .section_design-wrapper--typography_cards .card .title-right svg {
+    width: 200px;
+    height: 150px;
   }
 }
 @media screen and (max-width: 480px) {
-  .section_design-wrapper--typography_cards .card .title-left,
-  .section_design-wrapper--typography_cards .card .title-right {
-    font-size: 130px;
+  .section_design-wrapper--typography_cards .card .title-left svg,
+  .section_design-wrapper--typography_cards .card .title-right svg {
+    width: 150px;
+    height: 100px;
   }
-}
-.section_design-wrapper--typography_cards .card .subtitle-left,
-.section_design-wrapper--typography_cards .card .subtitle-right {
-  color: #BBB;
-  font-size: 64px;
-  line-height: 90%;
-  font-weight: 400;
-  width: 65%;
 }
 @media screen and (max-width: 768px) {
-  .section_design-wrapper--typography_cards .card .subtitle-left,
-  .section_design-wrapper--typography_cards .card .subtitle-right {
-    font-size: 40px;
+  .section_design-wrapper--typography_cards .card .subtitle-left svg,
+  .section_design-wrapper--typography_cards .card .subtitle-right svg {
+    width: 150px;
+    height: 100px;
   }
 }
-@media screen and (max-width: 480px) {
-  .section_design-wrapper--typography_cards .card .subtitle-left,
-  .section_design-wrapper--typography_cards .card .subtitle-right {
-    font-size: 30px;
+@media screen and (max-width: 768px) {
+  .section_design-wrapper--typography_cards .card .subtitle-left svg,
+  .section_design-wrapper--typography_cards .card .subtitle-right svg {
+    width: 120px;
+    height: 70px;
   }
 }
 .section_design-wrapper--typography_cards .card .title-left,
