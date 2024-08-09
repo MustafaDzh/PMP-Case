@@ -1315,8 +1315,10 @@
   display: flex;
   justify-content: center;
 }
-.section_last-wrapper--content_image img {
-  width: 50%;
+@media screen and (max-width: 480px) {
+  .section_last-wrapper--content_image img {
+    width: 50%;
+  }
 }
 
 * {
