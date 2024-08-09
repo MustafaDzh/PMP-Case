@@ -30,6 +30,8 @@
             gap: 194px;
             border-radius: 24px;
             background: #252525;
+            max-width: 1440px;
+            margin: 0 auto;
 
             @media screen and (max-width:768px) {
                 flex-direction: column;
