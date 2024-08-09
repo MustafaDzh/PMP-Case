@@ -5,9 +5,9 @@ $(document).ready(function () {
       spaceBetween: 95,
       centeredSlides: true,
       direction: 'horizontal',
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      }
+      // autoplay: {
+      //   delay: 3000,
+      //   disableOnInteraction: false,
+      // }
     });
   });
