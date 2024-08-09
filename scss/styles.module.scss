@@ -90,8 +90,12 @@ html body ul {
         font-size: 48px;
         line-height: 110%;
 
+        @media screen and (max-width:768px) {
+            font-size:38px;
+        }
+
         @media screen and (max-width:480px) {
-            font-size: 30px;
+            font-size: 25px;
         }
     }
 }
@@ -103,13 +107,13 @@ html body ul {
 .section_mobile-wrapper--content-title {
     .title {
         @media screen and (max-width:480px) {
-            font-size: 18px;
+            font-size: 17px;
             font-weight: 700;
         }
     }
     .desc , .subtitle {
         @media screen and (max-width:480px) {
-            font-size: 15px 
+            font-size: 14px 
         }
     }
 }

@@ -3,10 +3,13 @@
     max-width: 1440px;
     margin: 0 auto;
 
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:768px) {
         padding-top: 50px;
     }
 
+    @media screen and (max-width:480px) {
+        padding-top: 20px;
+    }
     &-wrapper {
         padding: 0px 50px;
 
@@ -35,7 +38,7 @@
         &--line {
             margin: 39px 0;
 
-            @media screen and (max-width:480px) {
+            @media screen and (max-width:768px) {
                 margin: 15px 0px;
             }
 
@@ -53,7 +56,7 @@
 
 
                 @media screen and (max-width: 768px) {
-                    font-size: 18px;
+                    font-size: 17px;
                 }
 
                 ;
@@ -80,13 +83,17 @@
             .section_lorem-wrapper--content_list-item:first-child .text-card {
                 gap: 135px;
 
+                @media screen and (max-width:768px) {
+                    gap: 120px;
+                }
+
                 @media screen and (max-width:480px) {
                     gap: 25px;
                 }
 
                 &--desc {
                     @media screen and (max-width:480px) {
-                        font-size: 15px;
+                        font-size: 14px;
                     }
                 }
             }

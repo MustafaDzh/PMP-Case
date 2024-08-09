@@ -4,6 +4,16 @@
   margin: 0 auto;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .section_desktop {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_desktop {
+    padding-top: 20px;
+  }
+}
 .section_desktop-wrapper--title {
   padding-bottom: 99px;
   padding: 0px 50px;
@@ -12,8 +22,18 @@
   font-size: 48px;
   line-height: 110%;
 }
+@media screen and (max-width: 480px) {
+  .section_desktop-wrapper--title .title {
+    font-size: 25px;
+  }
+}
 .section_desktop-wrapper--line {
   padding: 30px 50px;
+}
+@media screen and (max-width: 768px) {
+  .section_desktop-wrapper--line {
+    padding: 15px 50px;
+  }
 }
 .section_desktop-wrapper--line svg {
   width: 100%;
@@ -50,6 +70,12 @@
     margin-bottom: 50px;
   }
 }
+@media screen and (max-width: 480px) {
+  .section_desktop-wrapper--content_top-text .subtitle {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+}
 .section_desktop-wrapper--content_bottom {
   display: flex;
   align-items: center;
@@ -59,7 +85,7 @@
 @media screen and (max-width: 480px) {
   .section_desktop-wrapper--content_bottom {
     margin: 0 auto;
-    padding: 0px 50px;
+    padding: 0px 25px;
   }
 }
 .section_desktop-wrapper--content_bottom-image {
@@ -97,6 +123,16 @@
   font-size: 20px;
   line-height: 130%;
 }
+@media screen and (max-width: 768px) {
+  .section_desktop-wrapper--content_bottom-text .subtitle {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_desktop-wrapper--content_bottom-text .subtitle {
+    font-size: 14px;
+  }
+}
 .section_desktop-wrapper--content_bottom-text .subtitle span {
   color: #CD1543;
 }
@@ -121,10 +157,9 @@
     padding-top: 50px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .section_desktop-wrapper--content_images {
-    flex-direction: column;
-    padding: 50px 50px;
+    display: none;
   }
 }
 .section_desktop-wrapper--content_images-image {
@@ -143,6 +178,14 @@
   width: 100%;
   height: auto;
   display: block;
+}
+.section_desktop-wrapper--content .swiper {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .section_desktop-wrapper--content .swiper {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=desktop.module.css.map */

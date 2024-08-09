@@ -3,6 +3,16 @@
   width: 98%;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  .section_sitemap {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_sitemap {
+    padding-top: 20px;
+  }
+}
 .section_sitemap-wrapper {
   display: flex;
   flex-direction: column;

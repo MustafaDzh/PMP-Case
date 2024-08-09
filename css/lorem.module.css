@@ -3,9 +3,14 @@
   max-width: 1440px;
   margin: 0 auto;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .section_lorem {
     padding-top: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_lorem {
+    padding-top: 20px;
   }
 }
 .section_lorem-wrapper {
@@ -36,7 +41,7 @@
 .section_lorem-wrapper--line {
   margin: 39px 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .section_lorem-wrapper--line {
     margin: 15px 0px;
   }
@@ -52,7 +57,7 @@
 }
 @media screen and (max-width: 768px) {
   .section_lorem-wrapper--content .text-card {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -76,6 +81,11 @@
 .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card {
   gap: 135px;
 }
+@media screen and (max-width: 768px) {
+  .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card {
+    gap: 120px;
+  }
+}
 @media screen and (max-width: 480px) {
   .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card {
     gap: 25px;
@@ -83,7 +93,7 @@
 }
 @media screen and (max-width: 480px) {
   .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card--desc {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 

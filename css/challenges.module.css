@@ -1,3 +1,14 @@
+@keyframes waveAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
 .section_challenges {
   padding-top: 127px;
 }
@@ -25,22 +36,58 @@
   background: #252525;
   border-radius: 24px;
   width: 100%;
-  height: 756px;
   position: relative;
 }
+.section_challenges-wrapper-images_content-two {
+  background: #252525;
+  border-radius: 24px;
+  width: 100%;
+  position: relative;
+}
+.section_challenges-wrapper-images_content-two:nth-child(2) {
+  display: flex;
+  align-items: flex-end;
+}
+.section_challenges-wrapper-images_content-two-text {
+  padding: 0px 80px 28px 55px;
+}
+@media screen and (max-width: 1024px) {
+  .section_challenges-wrapper-images_content-two-text {
+    padding-top: 28px;
+  }
+}
+.section_challenges-wrapper-images_content-two-text .title {
+  font-size: 30px;
+  line-height: 120%;
+}
+@media screen and (max-width: 1024px) {
+  .section_challenges-wrapper-images_content-two-text .title {
+    font-size: 26px;
+  }
+}
 @media screen and (max-width: 768px) {
-  .section_challenges-wrapper-images_content {
-    height: 650px;
+  .section_challenges-wrapper-images_content-two-text .title {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 480px) {
-  .section_challenges-wrapper-images_content {
-    height: 500px;
+  .section_challenges-wrapper-images_content-two-text .title {
+    font-size: 20px;
   }
 }
-.section_challenges-wrapper-images_content-imageL {
-  position: absolute;
-  bottom: -1%;
+.section_challenges-wrapper-images_content-two img {
+  width: 100%;
+  height: 100%;
+}
+.section_challenges-wrapper-images_content:nth-child(1) {
+  background: radial-gradient(circle at center, #253876 0%, #252525 80%);
+  background-size: 200% 200%;
+  animation: waveAnimation 6s ease-in-out infinite;
+}
+.section_challenges-wrapper-images_content:nth-child(2) {
+  background: radial-gradient(circle at center, #CD1543 0%, #252525 80%);
+  background-size: 200% 200%;
+  animation: waveAnimation 6s ease-in-out infinite;
 }
 .section_challenges-wrapper-images_content-text {
   position: absolute;
@@ -60,13 +107,14 @@
 }
 @media screen and (max-width: 480px) {
   .section_challenges-wrapper-images_content-text .title {
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
   }
 }
 .section_challenges-wrapper-images_content img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: block;
 }
 .section_challenges-wrapper-cards {
   display: flex;
@@ -78,19 +126,36 @@
     flex-direction: column;
   }
 }
+@media screen and (max-width: 768px) {
+  .section_challenges-wrapper-cards {
+    gap: 8px;
+  }
+}
 .section_challenges-wrapper-cards_card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 216px;
-  height: 100%;
   border-radius: 24px;
   background: #252525;
+  padding: 48px 33px;
 }
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card {
     gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_challenges-wrapper-cards_card {
+    min-height: 180px;
+    padding: 24px 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_challenges-wrapper-cards_card {
+    min-height: 150px;
+    padding: 16px 12px;
   }
 }
 .section_challenges-wrapper-cards_card .subtitle {
@@ -107,10 +172,6 @@
     font-size: 14px;
   }
 }
-.section_challenges-wrapper-cards_card:nth-of-type(1) {
-  gap: 18px;
-  padding: 48px 33px;
-}
 .section_challenges-wrapper-cards_card:nth-of-type(1) .title {
   color: #0DB14B;
   font-size: 32px;
@@ -119,7 +180,7 @@
 }
 @media screen and (max-width: 480px) {
   .section_challenges-wrapper-cards_card:nth-of-type(1) .title {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .section_challenges-wrapper-cards_card:nth-of-type(1) .subtitle {
@@ -129,6 +190,15 @@
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card:nth-of-type(1) .subtitle {
     text-align: center;
+  }
+}
+.section_challenges-wrapper-cards_card-right {
+  display: flex;
+  gap: 16px;
+}
+@media screen and (max-width: 768px) {
+  .section_challenges-wrapper-cards_card-right {
+    flex-direction: column;
   }
 }
 

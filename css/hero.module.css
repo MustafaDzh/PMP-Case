@@ -35,6 +35,11 @@
 .homepage .section_hero-wrapper--content_headline a p {
   font-size: 14px;
 }
+@media screen and (max-width: 480px) {
+  .homepage .section_hero-wrapper--content_headline a p {
+    font-size: 10px;
+  }
+}
 .homepage .section_hero-wrapper--content .title {
   font-size: 72px;
   text-transform: uppercase;
@@ -46,7 +51,7 @@
 }
 @media screen and (max-width: 480px) {
   .homepage .section_hero-wrapper--content .title {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 .homepage .section_hero-wrapper--content .subtitle {
@@ -59,7 +64,7 @@
 }
 @media screen and (max-width: 768px) {
   .homepage .section_hero-wrapper--content .subtitle {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .homepage .section_hero-wrapper--image {
@@ -127,12 +132,14 @@
   .homepage .section_hero-wrapper--client-about {
     align-items: center;
     display: flex;
+    gap: 40px;
   }
 }
 @media screen and (max-width: 480px) {
   .homepage .section_hero-wrapper--client-about {
     flex-direction: column;
     align-items: start;
+    gap: 0px;
   }
 }
 .homepage .section_hero-wrapper--client-about .title {
@@ -140,6 +147,11 @@
   font-size: 32px;
   text-transform: uppercase;
   margin-bottom: 28px;
+}
+@media screen and (max-width: 480px) {
+  .homepage .section_hero-wrapper--client-about .title {
+    font-size: 28px;
+  }
 }
 .homepage .section_hero-wrapper--client-about .subtitle {
   font-size: 16px;
@@ -149,6 +161,7 @@
 @media screen and (max-width: 480px) {
   .homepage .section_hero-wrapper--client-about .subtitle {
     width: 100%;
+    font-size: 14px;
   }
 }
 .homepage .section_hero-wrapper--client-statics {
