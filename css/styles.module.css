@@ -1334,45 +1334,6 @@ html body {
   overflow-x: hidden;
 }
 
-.rocGrotesk-300 {
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  text-decoration: none;
-}
-
-.rocGrotesk-400 {
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
-}
-
-.rocGrotesk-500 {
-  font-feature-settings: "liga" off, "clig" off;
-  font-family: "Roc Grotesk" sans-serif;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.rocGrotesk-700 {
-  font-feature-settings: "liga" off, "clig" off;
-  font-family: "Roc Grotesk" sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.rocGrotesk-800 {
-  color: #28282a;
-  text-align: center;
-  font-size: 96px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
 .unbounded-300 {
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
