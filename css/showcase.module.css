@@ -1,119 +1,119 @@
-.section_last {
+.section_showcase {
   width: 100%;
   padding-top: 155px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
-  .section_last {
+  .section_showcase {
     padding-top: 50px;
   }
 }
 @media screen and (max-width: 480px) {
-  .section_last {
+  .section_showcase {
     padding-top: 20px;
   }
 }
-.section_last-wrapper {
+.section_showcase-wrapper {
   width: 75%;
   margin: 0 auto;
 }
 @media screen and (max-width: 480px) {
-  .section_last-wrapper {
+  .section_showcase-wrapper {
     width: 90%;
   }
 }
-.section_last-wrapper--content {
+.section_showcase-wrapper--content {
   display: flex;
 }
 @media screen and (max-width: 1024px) {
-  .section_last-wrapper--content {
+  .section_showcase-wrapper--content {
     flex-direction: column;
     align-items: center;
   }
 }
-.section_last-wrapper--content_text {
+.section_showcase-wrapper--content_text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 @media screen and (max-width: 1024px) {
-  .section_last-wrapper--content_text {
+  .section_showcase-wrapper--content_text {
     gap: 25px;
     align-items: center;
   }
 }
-.section_last-wrapper--content_text .subtitle {
-  width: 80%;
+.section_showcase-wrapper--content_text .subtitle {
+  width: 85%;
   font-size: 20px;
 }
 @media screen and (max-width: 1024px) {
-  .section_last-wrapper--content_text .subtitle {
+  .section_showcase-wrapper--content_text .subtitle {
     font-size: 16px;
     width: 100%;
     text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
-  .section_last-wrapper--content_text .subtitle {
+  .section_showcase-wrapper--content_text .subtitle {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 480px) {
-  .section_last-wrapper--content_text .subtitle {
+  .section_showcase-wrapper--content_text .subtitle {
     font-size: 14px;
   }
 }
-.section_last-wrapper--content_text .title {
+.section_showcase-wrapper--content_text .title {
   font-size: 36px;
   color: #414141;
   line-height: 110%;
-  width: 70%;
+  width: 80%;
 }
 @media screen and (max-width: 1280px) {
-  .section_last-wrapper--content_text .title {
+  .section_showcase-wrapper--content_text .title {
     font-size: 26px;
   }
 }
 @media screen and (max-width: 1024px) {
-  .section_last-wrapper--content_text .title {
+  .section_showcase-wrapper--content_text .title {
     font-size: 22px;
     text-align: center;
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  .section_last-wrapper--content_text .title {
+  .section_showcase-wrapper--content_text .title {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 480px) {
-  .section_last-wrapper--content_text .title {
+  .section_showcase-wrapper--content_text .title {
     width: 100%;
     text-align: center;
     font-size: 17px;
   }
 }
-.section_last-wrapper--content_text .title span {
+.section_showcase-wrapper--content_text .title span {
   color: #FFF;
 }
-.section_last-wrapper--content_image {
+.section_showcase-wrapper--content_image {
   display: flex;
   justify-content: center;
 }
 @media screen and (max-width: 1024px) {
-  .section_last-wrapper--content_image img {
+  .section_showcase-wrapper--content_image img {
     width: 80%;
   }
 }
 @media screen and (max-width: 768px) {
-  .section_last-wrapper--content_image img {
+  .section_showcase-wrapper--content_image img {
     width: 70%;
   }
 }
 @media screen and (max-width: 480px) {
-  .section_last-wrapper--content_image img {
+  .section_showcase-wrapper--content_image img {
     width: 50%;
   }
 }
 
-/*# sourceMappingURL=loremtwo.module.css.map */
+/*# sourceMappingURL=showcase.module.css.map */

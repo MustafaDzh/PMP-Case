@@ -44,7 +44,7 @@
   gap: 123px;
   padding: 0px 50px;
   height: 1450px;
-  margin-bottom: -110px;
+  transform: translateY(90px);
 }
 @media screen and (max-width: 480px) {
   .section_mobile-wrapper--content {
@@ -76,7 +76,7 @@
 @media screen and (max-width: 1024px) {
   .section_mobile-wrapper--content {
     height: auto;
-    margin-bottom: 0px;
+    transform: none;
   }
 }
 .section_mobile-wrapper--content-svg {

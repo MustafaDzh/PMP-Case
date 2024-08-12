@@ -1,0 +1,109 @@
+.section_overview {
+  padding-top: 90px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .section_overview {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_overview {
+    padding-top: 20px;
+  }
+}
+.section_overview-wrapper {
+  padding: 0px 50px;
+}
+@media screen and (max-width: 768px) {
+  .section_overview-wrapper {
+    padding: 0px 20px;
+  }
+}
+.section_overview-wrapper--title {
+  padding: 10px 0px;
+  margin-bottom: 59px;
+}
+@media screen and (max-width: 480px) {
+  .section_overview-wrapper--title {
+    margin-bottom: 0px;
+  }
+}
+.section_overview-wrapper--title_text {
+  width: 416px;
+}
+@media screen and (max-width: 480px) {
+  .section_overview-wrapper--title_text {
+    width: 100%;
+  }
+}
+.section_overview-wrapper--line {
+  margin: 39px 0;
+}
+@media screen and (max-width: 768px) {
+  .section_overview-wrapper--line {
+    margin: 15px 0px;
+  }
+}
+.section_overview-wrapper--line svg {
+  width: 100%;
+}
+.section_overview-wrapper--content .text-card {
+  display: flex;
+  gap: 84px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .section_overview-wrapper--content .text-card {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_overview-wrapper--content .text-card {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_overview-wrapper--content .text-card {
+    gap: 25px;
+    flex-direction: column;
+  }
+}
+.section_overview-wrapper--content .text-card--desc {
+  font-feature-settings: "liga" off, "clig" off;
+  line-height: 130%;
+}
+@media screen and (max-width: 480px) {
+  .section_overview-wrapper--content .text-card--desc {
+    font-size: 15px;
+  }
+}
+.section_overview-wrapper--content .text-card--desc span {
+  color: #FFCE34;
+}
+.section_overview-wrapper--content .section_overview-wrapper--content_list-item:first-child .text-card {
+  gap: 135px;
+}
+@media screen and (max-width: 1024px) {
+  .section_overview-wrapper--content .section_overview-wrapper--content_list-item:first-child .text-card {
+    gap: 125px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_overview-wrapper--content .section_overview-wrapper--content_list-item:first-child .text-card {
+    gap: 120px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_overview-wrapper--content .section_overview-wrapper--content_list-item:first-child .text-card {
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_overview-wrapper--content .section_overview-wrapper--content_list-item:first-child .text-card--desc {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=overview.module.css.map */
