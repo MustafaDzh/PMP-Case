@@ -29,12 +29,24 @@
   }
 }
 .section_design-wrapper--system-title {
-  padding: 10px 0px;
-  margin-bottom: 59px;
+  height: 142px;
+}
+.section_design-wrapper--system-title .section-title .title {
+  margin: 10px 0px;
+}
+@media screen and (max-width: 1024px) {
+  .section_design-wrapper--system-title {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_design-wrapper--system-title {
+    height: 60px;
+  }
 }
 @media screen and (max-width: 480px) {
   .section_design-wrapper--system-title {
-    margin-bottom: 0px;
+    height: 30px;
   }
 }
 .section_design-wrapper--system-line {

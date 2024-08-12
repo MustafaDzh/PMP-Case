@@ -12,18 +12,31 @@
 
     &-wrapper {
         position: relative;
+        padding: 0px 50px;
+
+        @media screen and (max-width:768px) {
+            padding: 0px 20px;
+        }
 
         &--title {
-            padding: 0px 50px;
-            margin-bottom: 109px;
-
-            @media screen and (max-width:768px) {
-                margin-bottom: 0px;
-            }
+            height: 142px;
 
             .title {
+                margin: 10px 0px;
                 font-size: 48px;
-                line-height: 110%;
+                line-height: 110%
+            }
+
+            @media screen and (max-width:1024px) {
+                height: 80px;
+            }
+
+            @media screen and (max-width:768px) {
+                height: 60px;
+            }
+
+            @media screen and (max-width:480px) {
+                height: 30px;
             }
         }
 

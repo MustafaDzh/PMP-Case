@@ -21,20 +21,30 @@
   }
 }
 .section_overview-wrapper--title {
-  padding: 10px 0px;
-  margin-bottom: 59px;
+  height: 142px;
 }
-@media screen and (max-width: 480px) {
-  .section_overview-wrapper--title {
-    margin-bottom: 0px;
-  }
-}
-.section_overview-wrapper--title_text {
+.section_overview-wrapper--title .section-title .title {
+  margin: 10px 0px;
   width: 416px;
 }
 @media screen and (max-width: 480px) {
-  .section_overview-wrapper--title_text {
+  .section_overview-wrapper--title .section-title .title {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section_overview-wrapper--title {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_overview-wrapper--title {
+    height: 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_overview-wrapper--title {
+    height: 30px;
   }
 }
 .section_overview-wrapper--line {

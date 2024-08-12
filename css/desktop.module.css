@@ -13,17 +13,35 @@
     padding-top: 20px;
   }
 }
-.section_desktop-wrapper--title {
-  padding-bottom: 99px;
+.section_desktop-wrapper {
   padding: 0px 50px;
 }
+@media screen and (max-width: 768px) {
+  .section_desktop-wrapper {
+    padding: 0px 20px;
+  }
+}
+.section_desktop-wrapper--title {
+  height: 142px;
+}
 .section_desktop-wrapper--title .title {
+  margin: 10px 0px;
   font-size: 48px;
   line-height: 110%;
 }
+@media screen and (max-width: 1024px) {
+  .section_desktop-wrapper--title {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_desktop-wrapper--title {
+    height: 60px;
+  }
+}
 @media screen and (max-width: 480px) {
-  .section_desktop-wrapper--title .title {
-    font-size: 25px;
+  .section_desktop-wrapper--title {
+    height: 30px;
   }
 }
 .section_desktop-wrapper--line {
@@ -202,24 +220,60 @@
   object-fit: cover;
   display: block;
 }
-.section_desktop-wrapper--content .swiper {
+.section_desktop-wrapper .swiper {
+  padding-top: 50px;
   display: none;
 }
 @media screen and (max-width: 768px) {
-  .section_desktop-wrapper--content .swiper {
-    display: flex;
+  .section_desktop-wrapper .swiper {
+    display: block;
   }
 }
-.section_desktop-wrapper--content .swiper .swiper-slide {
+.section_desktop-wrapper .swiper .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 570px;
 }
-.section_desktop-wrapper--content .swiper .swiper-slide img {
+.section_desktop-wrapper .swiper .swiper-slide img {
   width: 100%;
   height: 500px;
   object-fit: contain;
+}
+.section_desktop-wrapper .desktop-buttons {
+  display: flex;
+  gap: 16px;
+  padding-left: 20px;
+}
+.section_desktop-wrapper .desktop-buttons button {
+  width: 36px;
+  height: 36px;
+  align-items: flex-start;
+  border-radius: 64px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 16px;
+  background: transparent;
+}
+.section_desktop-wrapper .swiper-pagination {
+  margin: 0 auto;
+}
+.section_desktop-wrapper .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  opacity: 0.6;
+  transition: opacity 0.3s, background-color 0.3s;
+  border: 1px solid grey;
+  background-color: #0DB14B;
+  margin: 0 auto;
+}
+.section_desktop-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #fff;
+}
+.section_desktop .swiper-button-disabled {
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=desktop.module.css.map */
