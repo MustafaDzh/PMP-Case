@@ -54,9 +54,14 @@
   font-size: 20px;
   padding-bottom: 50px;
 }
+@media screen and (max-width: 1024px) {
+  .section_lorem-wrapper--content .text-card {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 768px) {
   .section_lorem-wrapper--content .text-card {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -79,6 +84,11 @@
 }
 .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card {
   gap: 135px;
+}
+@media screen and (max-width: 1024px) {
+  .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card {
+    gap: 125px;
+  }
 }
 @media screen and (max-width: 768px) {
   .section_lorem-wrapper--content .section_lorem-wrapper--content_list-item:first-child .text-card {

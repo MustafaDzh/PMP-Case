@@ -64,6 +64,16 @@
   font-size: 20px;
 }
 @media screen and (max-width: 1024px) {
+  .section_mobile-wrapper--content-title .title {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_mobile-wrapper--content-title .title {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
   .section_mobile-wrapper--content {
     height: auto;
     margin-bottom: 0px;
@@ -98,6 +108,16 @@
 .section_mobile-wrapper--content-text .subtitle {
   font-size: 20px;
   line-height: 130%;
+}
+@media screen and (max-width: 1024px) {
+  .section_mobile-wrapper--content-text .subtitle {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_mobile-wrapper--content-text .subtitle {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 480px) {
   .section_mobile-wrapper--content-text .subtitle {

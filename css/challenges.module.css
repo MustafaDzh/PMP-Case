@@ -62,12 +62,12 @@
 }
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-images_content-two-text .title {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 768px) {
   .section_challenges-wrapper-images_content-two-text .title {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -100,14 +100,25 @@
   font-feature-settings: "liga" off, "clig" off;
   line-height: 120%;
 }
+@media screen and (max-width: 1280px) {
+  .section_challenges-wrapper-images_content-text .title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section_challenges-wrapper-images_content-text .title {
+    width: 95%;
+  }
+}
 @media screen and (max-width: 768px) {
   .section_challenges-wrapper-images_content-text .title {
-    font-size: 20px;
+    font-size: 18px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
   .section_challenges-wrapper-images_content-text .title {
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -136,11 +147,64 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 216px;
+  height: 216px;
   border-radius: 24px;
   background: #252525;
-  padding: 48px 33px;
+}
+.section_challenges-wrapper-cards_card.left {
+  padding: 48px 34px;
   gap: 18px;
+}
+.section_challenges-wrapper-cards_card.left .title {
+  color: #0DB14B;
+  font-size: 32px;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1024px) {
+  .section_challenges-wrapper-cards_card.left .title {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_challenges-wrapper-cards_card.left .title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_challenges-wrapper-cards_card.left .title {
+    font-size: 18px;
+  }
+}
+.section_challenges-wrapper-cards_card.left .subtitle {
+  text-align: start;
+  width: 95%;
+  font-size: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .section_challenges-wrapper-cards_card.left .subtitle {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section_challenges-wrapper-cards_card.left .subtitle {
+    text-align: center;
+  }
+}
+.section_challenges-wrapper-cards_card.right {
+  gap: 30px;
+  padding: 48px 33px;
+}
+@media screen and (max-width: 1280px) {
+  .section_challenges-wrapper-cards_card.right {
+    padding: 0px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .section_challenges-wrapper-cards_card.right svg {
+    height: 50px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card {
@@ -164,33 +228,13 @@
 }
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card .subtitle {
-    width: 50%;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 480px) {
   .section_challenges-wrapper-cards_card .subtitle {
     width: 100%;
     font-size: 14px;
-  }
-}
-.section_challenges-wrapper-cards_card:nth-of-type(1) .title {
-  color: #0DB14B;
-  font-size: 32px;
-  line-height: 110%;
-  text-transform: uppercase;
-}
-@media screen and (max-width: 480px) {
-  .section_challenges-wrapper-cards_card:nth-of-type(1) .title {
-    font-size: 18px;
-  }
-}
-.section_challenges-wrapper-cards_card:nth-of-type(1) .subtitle {
-  text-align: start;
-  width: 95%;
-}
-@media screen and (max-width: 1024px) {
-  .section_challenges-wrapper-cards_card:nth-of-type(1) .subtitle {
-    text-align: center;
   }
 }
 .section_challenges-wrapper-cards_card-right {

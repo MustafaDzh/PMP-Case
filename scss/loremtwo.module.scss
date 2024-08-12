@@ -41,8 +41,17 @@
                     width: 80%;
                     font-size: 20px;
 
-                    @media screen and (max-width:480px) {
+                    @media screen and (max-width:1024px) {
+                        font-size: 16px;
+                        width: 100%;
                         text-align: center;
+                    }
+
+                    @media screen and (max-width:768px) {
+                        font-size: 15px;
+                    }
+
+                    @media screen and (max-width:480px) {
                         font-size: 14px;
                     }
                 }
@@ -52,6 +61,20 @@
                     color: #414141;
                     line-height: 110%;
                     width: 70%;
+
+                    @media screen and (max-width:1280px) {
+                        font-size: 26px;
+                    }
+
+                    @media screen and (max-width:1024px) {
+                        font-size: 22px;
+                        text-align: center;
+                        width: 100%;
+                    }
+
+                    @media screen and (max-width:768px) {
+                        font-size: 18px;
+                    }
 
                     @media screen and (max-width:480px) {
                         width: 100%;
@@ -70,6 +93,14 @@
                 justify-content: center;
 
                 img {
+                    @media screen and (max-width:1024px) {
+                        width: 80%;
+                    }
+
+                    @media screen and (max-width:768px) {
+                        width: 70%;
+                    }
+
                     @media screen and (max-width:480px) {
                         width: 50%;
                     }

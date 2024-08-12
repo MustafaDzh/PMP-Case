@@ -54,6 +54,14 @@
           font-size: 72px;
           text-transform: uppercase;
 
+          @media screen and (max-width:1280px) {
+            font-size: 68px;
+          }
+
+          @media screen and (max-width:1024px) {
+            font-size: 64px;
+          }
+
           @media screen and (max-width:768px) {
             font-size: 60px;
           }
@@ -237,6 +245,7 @@
 
             .subtitle {
               width: 80%;
+              text-align: right;
             }
           }
 

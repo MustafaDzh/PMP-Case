@@ -9,6 +9,7 @@
     @media screen and (max-width:480px) {
         padding-top: 20px;
     }
+
     &-wrapper {
         padding: 0px 50px;
 
@@ -53,12 +54,13 @@
                 font-size: 20px;
                 padding-bottom: 50px;
 
-
-                @media screen and (max-width: 768px) {
-                    font-size: 17px;
+                @media screen and (max-width:1024px) {
+                    font-size: 16px;
                 }
 
-                ;
+                @media screen and (max-width:768px) {
+                    font-size: 15px;
+                }
 
                 @media screen and (max-width:480px) {
                     gap: 25px;
@@ -81,6 +83,10 @@
 
             .section_lorem-wrapper--content_list-item:first-child .text-card {
                 gap: 135px;
+
+                @media screen and (max-width:1024px) {
+                    gap: 125px;
+                }
 
                 @media screen and (max-width:768px) {
                     gap: 120px;

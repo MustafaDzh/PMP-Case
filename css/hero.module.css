@@ -44,6 +44,16 @@
   font-size: 72px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1280px) {
+  .homepage .section_hero-wrapper--content .title {
+    font-size: 68px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .homepage .section_hero-wrapper--content .title {
+    font-size: 64px;
+  }
+}
 @media screen and (max-width: 768px) {
   .homepage .section_hero-wrapper--content .title {
     font-size: 60px;
@@ -216,6 +226,7 @@
 }
 .homepage .section_hero-wrapper--client-statics_left .subtitle {
   width: 80%;
+  text-align: right;
 }
 .homepage .section_hero-wrapper--client-statics_right {
   max-width: 148px;

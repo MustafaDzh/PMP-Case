@@ -51,6 +51,16 @@
 .section_desktop-wrapper--content_top .title {
   font-size: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .section_desktop-wrapper--content_top .title {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_desktop-wrapper--content_top .title {
+    font-size: 15px;
+  }
+}
 .section_desktop-wrapper--content_top-text {
   width: 54%;
 }
@@ -63,10 +73,15 @@
   font-size: 20px;
   line-height: 130%;
 }
+@media screen and (max-width: 1024px) {
+  .section_desktop-wrapper--content_top-text .subtitle {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+}
 @media screen and (max-width: 768px) {
   .section_desktop-wrapper--content_top-text .subtitle {
-    font-size: 18px;
-    margin-bottom: 50px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -124,9 +139,14 @@
   font-size: 20px;
   line-height: 130%;
 }
+@media screen and (max-width: 1024px) {
+  .section_desktop-wrapper--content_bottom-text .subtitle {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 768px) {
   .section_desktop-wrapper--content_bottom-text .subtitle {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 480px) {

@@ -90,8 +90,16 @@ html body ul {
         font-size: 48px;
         line-height: 110%;
 
+        @media screen and (max-width:1280px) {
+            font-size: 44px;
+        }
+
+        @media screen and (max-width:1024px) {
+            font-size: 40px;
+        }
+
         @media screen and (max-width:768px) {
-            font-size:38px;
+            font-size: 38px;
         }
 
         @media screen and (max-width:480px) {
@@ -111,9 +119,11 @@ html body ul {
             font-weight: 700;
         }
     }
-    .desc , .subtitle {
+
+    .desc,
+    .subtitle {
         @media screen and (max-width:480px) {
-            font-size: 14px 
+            font-size: 14px
         }
     }
 }

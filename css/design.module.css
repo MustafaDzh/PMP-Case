@@ -58,12 +58,13 @@
 @media screen and (max-width: 1024px) {
   .section_design-wrapper--system-content_list-item {
     padding-bottom: 30px;
+    font-size: 16px;
     min-height: 0;
   }
 }
 @media screen and (max-width: 768px) {
   .section_design-wrapper--system-content_list-item {
-    font-size: 17px;
+    font-size: 15px;
     gap: 105px;
   }
 }
@@ -162,6 +163,13 @@
     padding: 10px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .section_design-wrapper--typography_cards .card .title-left svg,
+  .section_design-wrapper--typography_cards .card .title-right svg {
+    width: 220px;
+    height: 150px;
+  }
+}
 @media screen and (max-width: 768px) {
   .section_design-wrapper--typography_cards .card .title-left svg,
   .section_design-wrapper--typography_cards .card .title-right svg {
@@ -174,6 +182,13 @@
   .section_design-wrapper--typography_cards .card .title-right svg {
     width: 140px;
     height: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_design-wrapper--typography_cards .card .subtitle-left svg,
+  .section_design-wrapper--typography_cards .card .subtitle-right svg {
+    width: 170px;
+    height: 100px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -208,12 +223,20 @@
   font-size: 20px;
   line-height: 110%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1028px) {
   .section_design-wrapper--typography_cards .card .title,
   .section_design-wrapper--typography_cards .card .subtitle,
   .section_design-wrapper--typography_cards .card .subtitle-main,
   .section_design-wrapper--typography_cards .card .desc {
     font-size: 18px;
+  }
+}
+@media screen and (max-width: 726px) {
+  .section_design-wrapper--typography_cards .card .title,
+  .section_design-wrapper--typography_cards .card .subtitle,
+  .section_design-wrapper--typography_cards .card .subtitle-main,
+  .section_design-wrapper--typography_cards .card .desc {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -293,6 +316,16 @@
 .section_design-wrapper--details_list-item .desc {
   padding-bottom: 50px;
   font-size: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .section_design-wrapper--details_list-item .desc {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_design-wrapper--details_list-item .desc {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 480px) {
   .section_design-wrapper--details_list-item .desc {
