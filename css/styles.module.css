@@ -464,6 +464,11 @@
   width: 100%;
   position: relative;
 }
+.section_challenges-wrapper-images_content-two:nth-child(1) {
+  background: radial-gradient(circle at center, #CD1543 0%, #252525 80%);
+  background-size: 200% 200%;
+  animation: waveAnimation 6s ease-in-out infinite;
+}
 .section_challenges-wrapper-images_content-two:nth-child(2) {
   display: flex;
   align-items: flex-end;
@@ -601,6 +606,9 @@
   width: 95%;
   font-size: 16px;
 }
+.section_challenges-wrapper-cards_card.left .subtitle.second {
+  width: 100%;
+}
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card.left .subtitle {
     font-size: 14px;
@@ -645,6 +653,7 @@
 }
 .section_challenges-wrapper-cards_card .subtitle {
   text-align: center;
+  width: 85%;
 }
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card .subtitle {
@@ -744,6 +753,9 @@
   min-height: 390px;
   height: 100%;
   font-size: 20px;
+}
+.section_design-wrapper--system-content_list-item .desc {
+  width: 50%;
 }
 @media screen and (max-width: 1024px) {
   .section_design-wrapper--system-content_list-item {
@@ -1307,7 +1319,7 @@
   }
 }
 .section_desktop-wrapper--content_top-text {
-  width: 54%;
+  width: 58%;
 }
 @media screen and (max-width: 1024px) {
   .section_desktop-wrapper--content_top-text {
@@ -1378,7 +1390,7 @@
   z-index: 1;
 }
 .section_desktop-wrapper--content_bottom-text {
-  width: 35%;
+  width: 44%;
 }
 .section_desktop-wrapper--content_bottom-text .subtitle {
   font-size: 20px;
@@ -1506,6 +1518,7 @@
 .section_mobile {
   padding-top: 107px;
   width: 100%;
+  position: relative;
 }
 @media screen and (max-width: 768px) {
   .section_mobile {
@@ -1518,7 +1531,6 @@
   }
 }
 .section_mobile-wrapper {
-  position: relative;
   padding: 0px 50px;
 }
 @media screen and (max-width: 768px) {
@@ -1565,7 +1577,6 @@
   gap: 123px;
   padding: 0px 50px;
   height: 1450px;
-  transform: translateY(90px);
 }
 @media screen and (max-width: 480px) {
   .section_mobile-wrapper--content {
@@ -1605,6 +1616,7 @@
   top: 5%;
   right: 0;
   height: 100%;
+  transform: translateY(110px);
 }
 @media screen and (max-width: 1024px) {
   .section_mobile-wrapper--content-svg {
@@ -1615,7 +1627,7 @@
   height: 100%;
 }
 .section_mobile-wrapper--content-text {
-  width: 52%;
+  width: 58%;
   display: flex;
   flex-direction: column;
   justify-content: center;

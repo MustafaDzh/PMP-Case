@@ -44,6 +44,11 @@
   width: 100%;
   position: relative;
 }
+.section_challenges-wrapper-images_content-two:nth-child(1) {
+  background: radial-gradient(circle at center, #CD1543 0%, #252525 80%);
+  background-size: 200% 200%;
+  animation: waveAnimation 6s ease-in-out infinite;
+}
 .section_challenges-wrapper-images_content-two:nth-child(2) {
   display: flex;
   align-items: flex-end;
@@ -181,6 +186,9 @@
   width: 95%;
   font-size: 16px;
 }
+.section_challenges-wrapper-cards_card.left .subtitle.second {
+  width: 100%;
+}
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card.left .subtitle {
     font-size: 14px;
@@ -225,6 +233,7 @@
 }
 .section_challenges-wrapper-cards_card .subtitle {
   text-align: center;
+  width: 85%;
 }
 @media screen and (max-width: 1024px) {
   .section_challenges-wrapper-cards_card .subtitle {

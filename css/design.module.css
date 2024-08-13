@@ -67,6 +67,9 @@
   height: 100%;
   font-size: 20px;
 }
+.section_design-wrapper--system-content_list-item .desc {
+  width: 50%;
+}
 @media screen and (max-width: 1024px) {
   .section_design-wrapper--system-content_list-item {
     padding-bottom: 30px;
