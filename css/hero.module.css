@@ -217,7 +217,8 @@
   line-height: 150%;
 }
 .homepage .section_hero-wrapper--client-statics_left {
-  align-items: flex-end;
+  align-items: center;
+  width: 189px;
 }
 @media screen and (max-width: 480px) {
   .homepage .section_hero-wrapper--client-statics_left {
@@ -225,17 +226,12 @@
   }
 }
 .homepage .section_hero-wrapper--client-statics_left .subtitle {
-  width: 80%;
   text-align: right;
 }
 .homepage .section_hero-wrapper--client-statics_right {
   max-width: 148px;
   width: 100%;
-}
-@media screen and (max-width: 480px) {
-  .homepage .section_hero-wrapper--client-statics_right {
-    max-width: none;
-  }
+  text-align: center;
 }
 .homepage .section_hero-wrapper--client-statics_right .subtitle {
   text-align: center;

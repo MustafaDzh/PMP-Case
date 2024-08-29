@@ -36,10 +36,9 @@
 .section_sitemap-wrapper--site {
   display: flex;
   padding: 40px 33px;
-  gap: 194px;
+  gap: 97px;
   border-radius: 24px;
   background: #252525;
-  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .section_sitemap-wrapper--site {

@@ -80,7 +80,7 @@
   }
 }
 .section_desktop-wrapper--content_top-text {
-  width: 58%;
+  width: 60%;
 }
 @media screen and (max-width: 1024px) {
   .section_desktop-wrapper--content_top-text {
@@ -151,7 +151,7 @@
   z-index: 1;
 }
 .section_desktop-wrapper--content_bottom-text {
-  width: 44%;
+  width: 49%;
 }
 .section_desktop-wrapper--content_bottom-text .subtitle {
   font-size: 20px;

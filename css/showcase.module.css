@@ -43,7 +43,7 @@
   }
 }
 .section_showcase-wrapper--content_text .subtitle {
-  width: 85%;
+  width: 90%;
   font-size: 20px;
 }
 @media screen and (max-width: 1024px) {
@@ -67,7 +67,7 @@
   font-size: 36px;
   color: #414141;
   line-height: 110%;
-  width: 80%;
+  width: 90%;
 }
 @media screen and (max-width: 1280px) {
   .section_showcase-wrapper--content_text .title {

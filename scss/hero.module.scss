@@ -237,14 +237,14 @@
           }
 
           &_left {
-            align-items: flex-end;
+            align-items: center;
+            width: 189px;
 
             @media screen and (max-width:480px) {
               align-items: start;
             }
 
             .subtitle {
-              width: 80%;
               text-align: right;
             }
           }
@@ -252,10 +252,7 @@
           &_right {
             max-width: 148px;
             width: 100%;
-
-            @media screen and (max-width:480px) {
-              max-width: none;
-            }
+            text-align: center;
 
             .subtitle {
               text-align: center;
