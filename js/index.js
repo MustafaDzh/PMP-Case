@@ -1,7 +1,6 @@
 $(document).ready(function () {
   var swiper = new Swiper('.swiper', {
       loop: true,
-      slidesPerView: 3,
       spaceBetween: 95,
       centeredSlides: true,
       direction: 'horizontal',
@@ -27,8 +26,11 @@ $(document).ready(function () {
       onlyInViewport: true,
     },
     breakpoints: {
-      480: {
+      0: {
         slidesPerView: 1
+      },
+      480: {
+        slidesPerView: 3
       }
     }
   });
