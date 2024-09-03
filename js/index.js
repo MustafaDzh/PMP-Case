@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var swiper = new Swiper('.swiper', {
       loop: true,
-      slidesPerView: 1,
+      slidesPerView: 3,
       spaceBetween: 95,
       centeredSlides: true,
       direction: 'horizontal',
@@ -9,6 +9,11 @@ $(document).ready(function () {
         nextEl: '.right-button',
         prevEl: '.left-button'
     },
+    speed: 800,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -21,5 +26,10 @@ $(document).ready(function () {
       enabled: true,
       onlyInViewport: true,
     },
+    breakpoints: {
+      480: {
+        slidesPerView: 1
+      }
+    }
   });
 });
