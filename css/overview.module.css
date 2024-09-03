@@ -25,8 +25,13 @@
 }
 .section_overview-wrapper--title .section-title .title {
   margin: 10px 0px;
-  width: 668px;
+  width: 50%;
   text-transform: uppercase;
+}
+@media screen and (max-width: 1280px) {
+  .section_overview-wrapper--title .section-title .title {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
   .section_overview-wrapper--title .section-title .title {
@@ -50,11 +55,6 @@
 }
 .section_overview-wrapper--line {
   margin: 39px 0;
-}
-@media screen and (max-width: 768px) {
-  .section_overview-wrapper--line {
-    margin: 15px 0px;
-  }
 }
 .section_overview-wrapper--line svg {
   width: 100%;
