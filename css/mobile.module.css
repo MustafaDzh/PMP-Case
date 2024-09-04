@@ -61,6 +61,12 @@
   padding: 0px 50px;
   height: 1450px;
 }
+@media screen and (max-width: 1024px) {
+  .section_mobile-wrapper--content {
+    padding: 0px;
+    gap: 50px;
+  }
+}
 @media screen and (max-width: 480px) {
   .section_mobile-wrapper--content {
     flex-direction: column;
@@ -69,11 +75,6 @@
 }
 .section_mobile-wrapper--content-title {
   width: 10%;
-}
-@media screen and (max-width: 1024px) {
-  .section_mobile-wrapper--content-title {
-    width: 20%;
-  }
 }
 .section_mobile-wrapper--content-title .title {
   font-size: 20px;

@@ -198,10 +198,6 @@
                         @media screen and (max-width: 1024px) {
                             font-size: 14px;
                         }
-
-                        @media screen and (max-width: 1024px) {
-                            text-align: center;
-                        }
                     }
                 }
 
@@ -219,8 +215,9 @@
                     }
 
                     @media screen and (max-width: 480px) {
-                        width: 100%;
+                        width: 95%;
                         padding: 16px 12px;
+                        margin: 0 auto;
                     }
 
                     @media screen and (max-width: 1280px) {

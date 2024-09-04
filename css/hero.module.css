@@ -185,8 +185,7 @@
 }
 @media screen and (max-width: 480px) {
   .homepage .section_hero-wrapper--client-statics {
-    flex-direction: column;
-    gap: 40px;
+    gap: 30px;
   }
 }
 .homepage .section_hero-wrapper--client-statics_left, .homepage .section_hero-wrapper--client-statics_right {
@@ -235,11 +234,6 @@
 }
 .homepage .section_hero-wrapper--client-statics_right .subtitle {
   text-align: center;
-}
-@media screen and (max-width: 480px) {
-  .homepage .section_hero-wrapper--client-statics_right .subtitle {
-    text-align: start;
-  }
 }
 
 /*# sourceMappingURL=hero.module.css.map */

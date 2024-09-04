@@ -74,7 +74,6 @@ html body ul {
 }
 
 .section {
-    width: 98%;
     max-width: calc(1440px - 2%);
     height: auto;
     margin: 0 auto;
@@ -125,6 +124,7 @@ html body ul {
         @media screen and (max-width:1024px) {
             font-size: 18px;
         }
+
         @media screen and (max-width:480px) {
             font-size: 14px
         }

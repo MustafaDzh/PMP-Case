@@ -58,6 +58,11 @@
                 gap: 123px;
                 padding: 0px 50px;
 
+                @media screen and (max-width:1024px) {
+                    gap: 50px;
+                    padding: 0px;
+                }
+
                 @media screen and (max-width: 768px) {
                     flex-direction: column;
                     gap: 20px;
@@ -111,7 +116,7 @@
 
                 @media screen and (max-width: 480px) {
                     margin: 0 auto;
-                    padding: 0px 25px;
+                    width: 100%;
                 }
 
                 &-image {

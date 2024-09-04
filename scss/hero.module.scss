@@ -203,8 +203,7 @@
           }
 
           @media screen and (max-width:480px) {
-            flex-direction: column;
-            gap: 40px;
+            gap: 30px;
           }
 
           &_left,
@@ -256,10 +255,6 @@
 
             .subtitle {
               text-align: center;
-
-              @media screen and (max-width:480px) {
-                text-align: start;
-              }
             }
           }
         }
