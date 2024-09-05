@@ -63,7 +63,7 @@
   font-size: 20px;
 }
 .section_design-wrapper--system-content_list-item > :nth-child(1) {
-  margin-right: 125px;
+  margin-right: 120px;
 }
 @media screen and (max-width: 1024px) {
   .section_design-wrapper--system-content_list-item > :nth-child(1) {
@@ -194,7 +194,7 @@
 @media screen and (max-width: 480px) {
   .section_design-wrapper--typography_cards .card.bottom .bottom-left,
   .section_design-wrapper--typography_cards .card.bottom .bottom-right {
-    padding: 10px;
+    padding: 20px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -299,6 +299,11 @@
   font-size: 14px;
   width: 80%;
 }
+@media screen and (max-width: 480px) {
+  .section_design-wrapper--typography_cards .card .desc svg {
+    width: 140px;
+  }
+}
 .section_design-wrapper--details {
   padding-top: 105px;
 }
@@ -326,7 +331,7 @@
   }
 }
 .section_design-wrapper--details_list-item:nth-child(1) {
-  gap: 110px;
+  gap: 100px;
 }
 @media screen and (max-width: 1024px) {
   .section_design-wrapper--details_list-item:nth-child(1) {
@@ -363,7 +368,7 @@
   }
 }
 .section_design-wrapper--details_list-item:nth-child(3) .title {
-  margin-right: 100px;
+  margin-right: 105px;
 }
 @media screen and (max-width: 1024px) {
   .section_design-wrapper--details_list-item:nth-child(3) .title {

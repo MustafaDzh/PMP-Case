@@ -212,14 +212,13 @@
 }
 @media screen and (max-width: 480px) {
   .section_challenges-wrapper-cards_card.right {
-    width: 95%;
+    width: 100;
     padding: 16px 12px;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 1280px) {
   .section_challenges-wrapper-cards_card.right {
-    padding: 0px;
     font-size: 14px;
   }
 }
