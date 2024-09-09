@@ -621,6 +621,11 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  .section_challenges-wrapper-cards_card.right {
+    padding: 30px 15px;
+  }
+}
 @media screen and (max-width: 480px) {
   .section_challenges-wrapper-cards_card.right {
     width: 100;

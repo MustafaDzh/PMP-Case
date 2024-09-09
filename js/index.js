@@ -2,7 +2,7 @@ $(document).ready(function () {
   var swiper = new Swiper('.swiper', {
     loop: true,
     spaceBetween: 95,
-    centeredSlides: true,
+    // centeredSlides: true,
     direction: 'horizontal',
     navigation: {
       nextEl: '.right-button',
@@ -30,7 +30,7 @@ $(document).ready(function () {
         slidesPerView: 1
       },
       481: {
-        slidesPerView: 3
+        slidesPerView: 2
       }
     }
   });
